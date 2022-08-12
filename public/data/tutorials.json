@@ -1,0 +1,49 @@
+{
+  "tutorials": [
+    {
+      "id": "29259390-04c6-4040-b0f1-d840cf244e2b",
+      "title": "Ogólnie",
+      "changes": [
+        {
+          "id": "b103b328-2c75-4f3c-b87d-9ad92d13248a",
+          "text": "Przeorganizowano strukturę wszystkich poradników rozbijając je na mniejsze części",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
+          }
+        }
+      ]
+    },
+    {
+      "id": "39af21b8-a836-4605-aff6-b515e5143841",
+      "title": "Statystyki",
+      "link": "https://www.mageguildwars.pl/",
+      "changes": [
+        {
+          "id": "1dc557f7-948c-41ca-b60b-fd7953641c00",
+          "text": "Statystyki podstawowe i dodatkowe posiadają bardziej rozbduowany opis",
+          "badge": {
+            "type": "UPDATE",
+            "text": "Aktualizacja"
+          }
+        },
+        {
+          "id": "25a6463e-5142-4705-b496-892dfba3ac38",
+          "text": "Zmieniono przedziały w tabelkach porównujących statystyki fizyczne i magiczne",
+          "badge": {
+            "type": "UPDATE",
+            "text": "Aktualizacja"
+          }
+        },
+        {
+          "id": "b0d0caa5-c9de-4557-b2f1-873f9892fd87",
+          "text": "Zmieniono koszta PU zakupu statystyk",
+          "badge": {
+            "type": "UPDATE",
+            "text": "Aktualizacja"
+          }
+        }
+      ]
+    }
+  ]
+}

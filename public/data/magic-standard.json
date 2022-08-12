@@ -1,0 +1,287 @@
+{
+  "title": "Magie zwykłe",
+  "description": "Zmianie uległy również magie zwykłe. Część z nich wymagała dodania dodatkowego opisu wyjaśniającego jaki jest jej zakreś, innym zaś brakowało uwzględnienia kosztów użycia energii magicznej. Dodatkowo niemal wszystkie efekty wykorzystujące naturę magii zostały zaktualizowane. Tyczy się to również kosztów nie tylko w postaci PU i PW, ale również kosztów energii magicznej.",
+  "data": [
+    {
+      "id": "c38a0378-a839-49be-9253-a2d779488e37",
+      "name": "Magia Ognia",
+      "imageUrl": "https://imgur.com/PWyRmYs.png",
+      "pageUrl": "https://mageguildwars.pl/showthread.php?tid=235",
+      "alt": "Obrazek staruszka z ogniem",
+      "groups": [
+        {
+          "id": "060da398-c98f-4c86-934c-2d3d391e0300",
+          "title": "Punkty Wymagań",
+          "content": [
+            {
+              "id": "b1987ed4-44ef-49ec-beb4-a7e753f3550a",
+              "text": "Koszta zostały zmienione z 150/300/550 na 150/300/450",
+              "type": "CHANGE"
+            }
+          ]
+        },
+        {
+          "id": "8a6eca32-f7b6-468a-968a-1b6fc1b1f32e",
+          "title": "Punkty Umiejętności",
+          "content": [
+            {
+              "id": "f0547034-2175-4a2b-b6b1-a1bc326f1ac3",
+              "text": "Koszta zostały zmienione z 150/270/370 na 170/290/450",
+              "type": "CHANGE"
+            }
+          ]
+        },
+        {
+          "id": "6c284d4e-f87f-42bd-9d2f-3483a7e5f2a9",
+          "title": "Zmiany w zdolnościach",
+          "content": [
+            {
+              "id": "8451b5c1-1c85-496c-97dc-9a88058967f5",
+              "text": "[Poziom pierwszy] Możliwośc podpalania wszystkiego wokół Maga, została zamieniona na podpalanie po kontakcie bezpośrednim",
+              "type": "CHANGE"
+            },
+            {
+              "id": "57ca57f3-d1fb-4730-93f4-f717877c8b1d",
+              "text": "[Poziom pierwszy/drugi/trzeci] Możliwość zwiększania temperatury terenu o 5/10/15 °C",
+              "type": "ADD"
+            },
+            {
+              "id": "56740f02-8476-4467-884f-42f9ac06b30a",
+              "text": "[Poziom pierwszy/drugi/trzeci] Możliwość wytrzymania w wyższych temperaturach niż w przypadku innych Magów o dodatkowe 5/10/15 °C",
+              "type": "ADD"
+            },
+            {
+              "id": "dd23eca0-f0af-417b-bf4a-078a66e2f047",
+              "text": "[Poziom pierwszy] Możliwość powodowania wybuchów źródeł ognia ulokowanych w pobliżu Maga",
+              "type": "ADD"
+            },
+            {
+              "id": "e18c2900-c664-4417-a792-cbec40671ae1",
+              "text": "[Poziom drugi] Możliwość tworzenia ścian ognia w celach defensywnych",
+              "type": "ADD"
+            },
+            {
+              "id": "b8ccdd21-a6b0-403a-9f6a-60370e77a1c1",
+              "text": "[Poziom drugi] Możliwość wyprowadzania ognistych słupów z pobliskich źródeł ognia w celach ofensywnych",
+              "type": "ADD"
+            },
+            {
+              "id": "427e9661-57ac-4b17-9fbd-13b00ffcfbe9",
+              "text": "[Poziom drugi] Możliwość otaczania ogniem maksymalnie dwóch kończyn",
+              "type": "ADD"
+            },
+            {
+              "id": "12c58645-a672-4c0a-81c3-3060cbd3cda8",
+              "text": "[Poziom trzeci] Możlwiość zwiększenia zasięgu zaklęć, po przez wykorzystywanie otaczających źródeł ognia",
+              "type": "ADD"
+            },
+            {
+              "id": "4a2ea57d-80dc-4525-87b8-8520c3379fff",
+              "text": "[Poziom trzeci] Możliwość zmiany kierunku, właściwości bądź rozmiaru ognia pochodzenia zewnętrznego",
+              "type": "ADD"
+            },
+            {
+              "id": "57042654-9ae8-42bb-9426-42b559a575f3",
+              "text": "[Poziom trzeci] Możliwość otoczenia całego ciała ogniem",
+              "type": "ADD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "5d8e96df-7826-44c1-8236-7a648df36699",
+      "name": "Magia Wody",
+      "imageUrl": "https://imgur.com/x8iHXkk.png",
+      "pageUrl": "https://mageguildwars.pl/showthread.php?tid=241",
+      "alt": "Wizerunek walczącej niebieskowłosej dziewczyny",
+      "groups": [
+        {
+          "id": "101bb203-44a3-431f-8576-d860cfb01819",
+          "title": "Punkty Wymagań",
+          "content": [
+            {
+              "id": "208a0c4f-f8ed-4bb6-8125-1f9af644ebb8",
+              "text": "Koszta zostały zmienione z 150/300/550 na 150/300/450",
+              "type": "CHANGE"
+            }
+          ]
+        },
+        {
+          "id": "c09834cf-531c-4455-873c-1eb3abe2b284",
+          "title": "Punkty Umiejętności",
+          "content": [
+            {
+              "id": "e9098732-9670-46d8-9d28-1b1437cb624b",
+              "text": "Koszta zostały zmienione z 170/270/380 na 140/270/460",
+              "type": "CHANGE"
+            }
+          ]
+        },
+        {
+          "id": "6d350e86-60d6-42e6-a79d-2944bba1687b",
+          "title": "Zmiany w zdolnościach",
+          "content": [
+            {
+              "id": "859fcb22-1a78-4faf-b3fa-16e8b80f7577",
+              "text": "[Poziom pierwszy] Usunięto możliwość dowolnej manipulacji wodą",
+              "type": "DELETE"
+            },
+            {
+              "id": "d525d1cd-bf3e-4495-b0dc-e1bd643c68d7",
+              "text": "[Poziom pierwszy/drugi/trzeci] Możliwość oddychania pod wodą na głębokość 5/10/15 metrów przez określony czas",
+              "type": "ADD"
+            },
+            {
+              "id": "9b30d4fd-6013-48e4-82b9-70fee93adcee",
+              "text": "[Poziom pierwszy] Możliwość tworzenia defensywnych struktur z wody znajdującej się w pobliżu pochodzenia naturalnego",
+              "type": "ADD"
+            },
+            {
+              "id": "d8425ab4-5ba0-45cf-848f-e6e05d9adc32",
+              "text": "[Poziom pierwszy] Możliwość kontaktu bezpośredniego z wysokimi temperaturami",
+              "type": "ADD"
+            },
+            {
+              "id": "45690ea7-548f-44cc-8622-ed362be7f591",
+              "text": "[Poziom drugi] Możliwość tworzenia maksymalnie dwóch wodnych strumieni do zastosowań ofensywnych",
+              "type": "ADD"
+            },
+            {
+              "id": "49e37b3f-c440-41fd-b60d-b91978f26a02",
+              "text": "[Poziom drugi] Możliwość tworzenia sztucznej wody w celach uzupełniających bądź ofensywnych",
+              "type": "ADD"
+            },
+            {
+              "id": "9d8f16e7-10ee-4601-8810-b2642312eb5b",
+              "text": "[Poziom drugi] Zmieniono transformacje jednej kończyny w wodę na możliwość zmiany maksymalnie dwóch kończyn w wodę w celach defensywnych",
+              "type": "CHANGE"
+            },
+            {
+              "id": "0f09a332-beda-4d51-94bf-add1d9d527ea",
+              "text": "[Poziom trzeci] Usunięto możliwość zamiany maksymalnie dwóch kończyn w wodę",
+              "type": "DELETE"
+            },
+            {
+              "id": "ea4cbae4-3a41-42c0-bb8e-d720619007a7",
+              "text": "[Poziom trzeci] Usunięto możliwość zamiany całego ciała w wodę",
+              "type": "DELETE"
+            },
+            {
+              "id": "33a9a156-6ee2-45aa-a8c4-c78c8cc93e32",
+              "text": "[Poziom trzeci] Możliwość tworzenia deszczu w celach uzupełnienia zapasów wody w otoczeniu",
+              "type": "ADD"
+            },
+            {
+              "id": "963ba25a-5fb4-40b2-bb8b-82ea84c0abe7",
+              "text": "[Poziom trzeci] Możliwość kontrolowania kropel deszczu, po przez zamianę ich w ostre, niewielkie słupki do celów ofensywnych",
+              "type": "ADD"
+            },
+            {
+              "id": "c4fc0c5d-5d0d-4b2c-83d1-9eb0bc32dd7b",
+              "text": "[Poziom trzeci] Możlwiość modyfikowania terenu po przez tworzenie wodnych konstrukcji",
+              "type": "ADD"
+            },
+            {
+              "id": "0f6842b7-8c36-4716-ac1e-b3ec01453000",
+              "text": "[Poziom trzeci] Możliwość spowalniania ruchów przeciwnika po przez wodę znajdującą się w jego ciele",
+              "type": "ADD"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "9887e274-1064-4718-9529-d1a2d57fdb14",
+      "name": "Magia Lodu",
+      "imageUrl": "https://imgur.com/PV6r1c3.png",
+      "pageUrl": "https://mageguildwars.pl/showthread.php?tid=234",
+      "alt": "Postać chłopaka otoczonego lodem",
+      "groups": [
+        {
+          "id": "d7fa7f18-810d-4fdc-af57-7b7317f50246",
+          "title": "Punkty Wymagań",
+          "content": [
+            {
+              "id": "6ab274b9-07bb-4edd-8433-7f7cbdab0aa9",
+              "text": "Koszta zostały zmienione z 150/300/550 na 150/300/450",
+              "type": "CHANGE"
+            }
+          ]
+        },
+        {
+          "id": "df0a5345-f600-4234-ac77-f4a1723adeb8",
+          "title": "Punkty Umiejętności",
+          "content": [
+            {
+              "id": "7b774689-ca7c-4023-8f7a-f80d721d5a18",
+              "text": "Koszta zostały zmienione z 100/250/340 na 150/280/450",
+              "type": "CHANGE"
+            }
+          ]
+        },
+        {
+          "id": "578e74cb-9116-42f7-84a1-f44623502700",
+          "title": "Zmiany w zdolnościach",
+          "content": [
+            {
+              "id": "e8a68d8d-5e9e-4838-807a-899fbcd3c800",
+              "text": "[Poziom pierwszy/drugi/trzeci] Możliwość zmniejszenia temperatury terenu o 5/10/15 °C",
+              "type": "ADD"
+            },
+            {
+              "id": "b268697a-d0ea-4056-b0eb-7987c6e2ff0c",
+              "text": "[Poziom pierwszy/drugi/trzeci] Możliwość dłuższego wytrzymania w niższych temperaturach niż w przypadku innych Magów o dodatkowe -5/-10/-15 °C",
+              "type": "ADD"
+            },
+            {
+              "id": "e70b319b-b4e9-47ae-b175-b32146540abb",
+              "text": "[Poziom pierwszy] Możliwość tworzenia małego uzbrojenia z lodu",
+              "type": "ADD"
+            },
+            {
+              "id": "92c11cff-855e-4d11-b63c-2d51c297a596",
+              "text": "[Poziom drugi] Usunięto możliwość tworzenia odstających lodowych elementów bądź opancerzenia bezpośrednio na ciele",
+              "type": "DELETE"
+            },
+            {
+              "id": "c9f4048b-175d-4f72-90b2-28eb6cc7489c",
+              "text": "[Poziom drugi] Możliwość tworzenia dużo większych obiektów jak na przykład meble, drzwi, posągi, czy inne elementy wyposażenia i dekoracji",
+              "type": "ADD"
+            },
+            {
+              "id": "1de15579-a228-481a-a1ee-9d0222fd7cc6",
+              "text": "[Poziom drugi] Możliwość modyfikowania terenu pod warunkiem znajdowania się odpowiedniej ilości lodu w okolicy",
+              "type": "ADD"
+            },
+            {
+              "id": "30787734-4527-4506-97bf-fbcbc58a3866",
+              "text": "[Poziom drugi] Możliwość utworzenia cienkiej lodowej warstwy w celach defensywnych na maksymalnie dwóch kończynach",
+              "type": "ADD"
+            },
+            {
+              "id": "7c5dd3dc-0845-4656-b7f6-9465f31199ad",
+              "text": "[Poziom trzeci] Usunięto możliwość odtworzenia całej kończyny z lodu",
+              "type": "DELETE"
+            },
+            {
+              "id": "71c56bec-b6f0-448a-870a-c1e125978a2a",
+              "text": "[Poziom trzeci] Możliwość utworzenia lodowej warstwy bezpośrednio na ciele, która nie krępuje ruchów",
+              "type": "ADD"
+            },
+            {
+              "id": "5588e79c-f7c0-492a-aa14-b6d052f07c0c",
+              "text": "[Poziom trzeci] Możliwość zwiększenia dystansu zaklęć po przez wykorzystanie innych źródeł lodu pochodzenia naturalnego",
+              "type": "ADD"
+            },
+            {
+              "id": "404b0321-bbdd-43f2-86f9-cd8df87b13ba",
+              "text": "[Poziom trzeci] Możliwość tworzenia wodnych, statycznych konstrukcji o ograniczonym rozmiarze ze zbiorników wodnych pochodzenia naturalnego, znajdujących się w okolicy",
+              "type": "ADD"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

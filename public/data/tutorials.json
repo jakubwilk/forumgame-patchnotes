@@ -11,6 +11,14 @@
             "type": "NEW",
             "text": "Nowość"
           }
+        },
+        {
+          "id": "492cff00-8fd1-40f3-b08e-ab3aa61b9310",
+          "text": "Dodano spis poradników kategoryzując je od najważniejszych po najmniej istotne dla rozgrywki",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
+          }
         }
       ]
     },
@@ -41,6 +49,99 @@
           "badge": {
             "type": "UPDATE",
             "text": "Aktualizacja"
+          }
+        },
+        {
+          "id": "08719988-e573-462c-a7dd-2464b01d9e07",
+          "text": "Opisano i określono priorytet dla wszystkich mnożników",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
+          }
+        },
+        {
+          "id": "afa0a38e-a752-44b4-9b77-77b2f97ed2a7",
+          "text": "Zmieniono próg wytrzymałości dla poszczególnych poziomów SB",
+          "badge": {
+            "type": "UPDATE",
+            "text": "Aktualizacja"
+          }
+        }
+      ]
+    },
+    {
+      "id": "75df6d00-9f8d-40c6-9e3e-db5824b9290e",
+      "title": "Magie",
+      "link": "https://www.mageguildwars.pl/",
+      "changes": [
+        {
+          "id": "e2d03747-cbb0-4174-82cf-70354623869e",
+          "text": "Zaktualizowano opisy dla magii zwykłych, dodatkowych i specjalnych",
+          "badge": {
+            "type": "UPDATE",
+            "text": "Aktualizacja"
+          }
+        },
+        {
+          "id": "9a101fea-249f-4db5-b452-1760459ebee1",
+          "text": "Zdefiniowano ogólny wzór wyceny magii pod kątem PU",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
+          }
+        },
+        {
+          "id": "494de6fa-d18c-44ee-9d7d-fc6074830f97",
+          "text": "Zmniejszono ilość wymaganego PW do magii własnych",
+          "badge": {
+            "type": "UPDATE",
+            "text": "Aktualizacja"
+          }
+        }
+      ]
+    },
+    {
+      "id": "c34715c4-8204-47c4-a60e-dddc392638e7",
+      "title": "Umiejętności",
+      "link": "https://www.mageguildwars.pl/",
+      "changes": [
+        {
+          "id": "ad42a43e-66c9-493f-af3c-ff59f02a35c4",
+          "text": "Dodano opisy analogicznie jak w przypadku magii, dla umiejętności własnych",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
+          }
+        },
+        {
+          "id": "0a70ee7e-bb08-4a71-a965-6f74477c924f",
+          "text": "Dodano wymaganą minimalną ilość PW do tworzenia umiejętności własnych",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
+          }
+        }
+      ]
+    },
+    {
+      "id": "62ab73eb-5914-48e5-aa84-19662fe0cb2c",
+      "title": "Eventy",
+      "link": "https://www.mageguildwars.pl/",
+      "changes": [
+        {
+          "id": "2c2b6581-298c-4c76-9ca0-f5ea99c37be2",
+          "text": "Skrócono opisy dotyczących wydarzeń w celu łatwiejszego i szybszego przyswajania informacji",
+          "badge": {
+            "type": "UPDATE",
+            "text": "Aktualizacja"
+          }
+        },
+        {
+          "id": "b2cbda2d-5038-4b8f-8cd9-2c4b22687308",
+          "text": "Usunięto z wątku wzmiankę o smokach",
+          "badge": {
+            "type": "DELETE",
+            "text": "Usunięto"
           }
         }
       ]

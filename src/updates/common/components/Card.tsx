@@ -16,7 +16,7 @@ interface IProps {
 function Card({ children }: IProps) {
   const { classes } = useStyles()
 
-  return <article className={clsx('p-8 pb-4', 'rounded', classes.card)}>{children}</article>
+  return <article className={clsx('p-8 pb-4 md:pb-2', 'rounded', classes.card)}>{children}</article>
 }
 
 export default Card

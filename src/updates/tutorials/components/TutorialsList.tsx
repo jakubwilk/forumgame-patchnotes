@@ -43,7 +43,7 @@ function TutorialsList() {
     <Section title={'Poradniki'}>
       {data.map((item) => (
         <div key={item.id}>
-          <header className={clsx('mb-2', 'flex items-center')}>
+          <header className={clsx('mb-4', 'flex items-center')}>
             <Title order={3} className={clsx(classes.title, 'font-normal', 'mr-2')}>
               {item.title}
             </Title>
@@ -55,7 +55,7 @@ function TutorialsList() {
               </Tooltip>
             )}
           </header>
-          <section className={clsx('mb-4 p-4', classes.section)}>
+          <section className={clsx('mb-4 md:mb-8 p-4', classes.section)}>
             <List>
               {item.changes.map((change) => (
                 <List.Item key={change.id} className={clsx('flex items-start', classes.listItem)}>

@@ -19,9 +19,11 @@ function Section({ title, children }: IProps) {
 
   return (
     <section className={clsx('mb-16 px-4 xl:px-0')}>
-      <Title order={2} className={clsx('mb-4', 'font-normal', classes.title)}>
-        {title}
-      </Title>
+      <header className={clsx('mb-4', 'flex items-center')}>
+        <Title order={2} className={clsx('font-normal', classes.title)}>
+          {title}
+        </Title>
+      </header>
       <Card>{children}</Card>
     </section>
   )

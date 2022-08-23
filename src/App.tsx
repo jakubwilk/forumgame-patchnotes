@@ -2,6 +2,7 @@ import { MantineProvider } from '@mantine/core'
 import { Greetings } from './greetings/components'
 import { Header } from './header/components'
 import { TutorialsList } from './updates/tutorials/components'
+import { MagicList } from './updates/magic/components'
 
 function App() {
   return (
@@ -22,6 +23,9 @@ function App() {
           authors={'– Vincent'}
         />
         <TutorialsList />
+      </div>
+      <div className={'container mx-auto w-full max-w-full'}>
+        <MagicList />
       </div>
     </MantineProvider>
   )

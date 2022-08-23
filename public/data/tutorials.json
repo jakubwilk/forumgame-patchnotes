@@ -452,6 +452,14 @@
             "type": "DELETE",
             "text": "Usunięto"
           }
+        },
+        {
+          "id": "e3973fba-6570-43f2-b043-a4ed8521fa44",
+          "text": "Dodano poradnik Spis poradników",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
+          }
         }
       ]
     }

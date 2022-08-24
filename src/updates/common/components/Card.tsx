@@ -11,12 +11,13 @@ const useStyles = createStyles((theme) => ({
 
 interface IProps {
   children: ReactNode
+  className?: string
 }
 
-function Card({ children }: IProps) {
+function Card({ children, className }: IProps) {
   const { classes } = useStyles()
 
-  return <article className={clsx('p-8 pb-4 md:pb-2', 'rounded', classes.card)}>{children}</article>
+  return <article className={clsx('p-8 pb-4 md:pb-2', 'rounded', classes.card, className)}>{children}</article>
 }
 
 export default Card

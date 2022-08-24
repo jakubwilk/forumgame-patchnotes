@@ -6,8 +6,6 @@ function useTutorialsQuery() {
   const [data, setData] = useState<ITutorials[]>([])
 
   const getTutorialsList = useCallback(() => {
-    setIsLoading(false)
-    setData([])
     fetch(`${window.location.origin}/data/tutorials.json`)
       .then((res) => res.json())
       .then((res: ITutorialsResponse) => {

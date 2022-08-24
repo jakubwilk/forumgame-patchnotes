@@ -24,9 +24,7 @@ function App() {
         />
         <TutorialsList />
       </div>
-      <div className={'container mx-auto w-full max-w-full'}>
-        <MagicList />
-      </div>
+      <MagicList />
     </MantineProvider>
   )
 }

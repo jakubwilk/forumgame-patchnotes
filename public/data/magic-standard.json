@@ -65,7 +65,7 @@
                   "id": "19154f7c-562d-42c9-b40b-0dd722d3c62a",
                   "text": "Możliwość zwiększania temperatury terenu wokół maga o 5 °C",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -73,7 +73,7 @@
                   "id": "cd372e0a-5e38-4587-9db1-23f37cea71c3",
                   "text": "Zwiększona wytrzymałość na wyższe temperatury o 5 °C w przeciwieństwie do pozostałych istot żywych",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -81,7 +81,7 @@
                   "id": "5a1b53a8-6e09-4b42-80af-f17ffb7b95e6",
                   "text": "Możliwość aktywowania zapłonu z dostępnych wokół maga źródeł ciepła",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 }
@@ -95,7 +95,7 @@
                   "id": "dad48723-0715-42a2-bd77-086739a8220f",
                   "text": "Możliwość zwiększania temperatury terenu wokół maga o 10 °C",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -103,7 +103,7 @@
                   "id": "bf14c9ba-ec11-4958-81ef-77bd1d52bf96",
                   "text": "Zwiększona wytrzymałość na wyższe temperatury o 10 °C w przeciwieństwie do pozostałych istot żywych",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -111,7 +111,7 @@
                   "id": "e18c2900-c664-4417-a792-cbec40671ae1",
                   "text": "Możliwość tworzenia ścian ognia w celach defensywnych",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -119,7 +119,7 @@
                   "id": "b8ccdd21-a6b0-403a-9f6a-60370e77a1c1",
                   "text": "Możliwość tworzenia słupów ognia prosto z dłoni, by razić przeciwnika z dystansu",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -127,7 +127,7 @@
                   "id": "427e9661-57ac-4b17-9fbd-13b00ffcfbe9",
                   "text": "Możliwość otoczenia płomieniami maksymalnie dwóch kończych, zwiększając tym samym ofensywne zdolności",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 }
@@ -141,7 +141,7 @@
                   "id": "2fa07952-d611-4287-bc73-136a03fea45f",
                   "text": "Możliwość zwiększania temperatury terenu wokół maga o 15 °C",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -149,7 +149,7 @@
                   "id": "193b3065-2bfc-4fb2-9ab1-560f7625f6c5",
                   "text": "Zwiększona wytrzymałość na wyższe temperatury o 15 °C w przeciwieństwie do pozostałych istot żywych",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -157,7 +157,7 @@
                   "id": "12c58645-a672-4c0a-81c3-3060cbd3cda8",
                   "text": "Możlwiość zwiększenia zasięgu zaklęć, po przez wykorzystywanie otaczających maga źródeł ognia",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -165,7 +165,7 @@
                   "id": "4a2ea57d-80dc-4525-87b8-8520c3379fff",
                   "text": "Zdolność do zmieniania kształtu, rozmiaru oraz kierunku ognia pochodzenia naturalnego, który znajduje się w zasięgu maga",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -173,7 +173,7 @@
                   "id": "57042654-9ae8-42bb-9426-42b559a575f3",
                   "text": "Możliwość otoczenia płomieniami całego ciała",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 }
@@ -208,7 +208,7 @@
                   "id": "19154f7c-562d-42c9-b40b-0dd722d3c62a",
                   "text": "Możliwość zmniejszania temperatury terenu wokół maga o -5 °C",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -216,7 +216,7 @@
                   "id": "cd372e0a-5e38-4587-9db1-23f37cea71c3",
                   "text": "Zwiększona wytrzymałość na niższe temperatury o -5 °C w przeciwieństwie do pozostałych istot żywych",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -224,7 +224,7 @@
                   "id": "5a1b53a8-6e09-4b42-80af-f17ffb7b95e6",
                   "text": "Możliwość tworzenia lodowych elementów pancerza bądź prostego uzbrojenia do walki wręcz",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 }
@@ -238,7 +238,7 @@
                   "id": "dad48723-0715-42a2-bd77-086739a8220f",
                   "text": "Możliwość zmniejszania temperatury terenu wokół maga o -10 °C",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -246,7 +246,7 @@
                   "id": "bf14c9ba-ec11-4958-81ef-77bd1d52bf96",
                   "text": "Zwiększona wytrzymałość na niższe temperatury o -10 °C w przeciwieństwie do pozostałych istot żywych",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -254,7 +254,7 @@
                   "id": "e18c2900-c664-4417-a792-cbec40671ae1",
                   "text": "Zdolność do tworzenia dużo większych obiektów z lodu, takich jak meble, drzwi czy inne masywniejsze obiekty, które równie dobrze mogą posłużyć w celach defensywnyc",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -262,7 +262,7 @@
                   "id": "b8ccdd21-a6b0-403a-9f6a-60370e77a1c1",
                   "text": "Możliwość modyfikowania terenu wokół maga",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -270,7 +270,7 @@
                   "id": "427e9661-57ac-4b17-9fbd-13b00ffcfbe9",
                   "text": "Możliwość otoczenia lodem maksymalnie dwóch kończyn",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -292,7 +292,7 @@
                   "id": "2fa07952-d611-4287-bc73-136a03fea45f",
                   "text": "Możliwość zmniejszania temperatury terenu wokół maga o -15 °C",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -300,7 +300,7 @@
                   "id": "193b3065-2bfc-4fb2-9ab1-560f7625f6c5",
                   "text": "Zwiększona wytrzymałość na niższe temperatury o -15 °C w przeciwieństwie do pozostałych istot żywych",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -308,7 +308,7 @@
                   "id": "12c58645-a672-4c0a-81c3-3060cbd3cda8",
                   "text": "Możliwość pokrycia całego ciała cienką warstwą lodu zapewniającą perfekcyjną obronę",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -316,7 +316,7 @@
                   "id": "4a2ea57d-80dc-4525-87b8-8520c3379fff",
                   "text": "Zdolność do zwiększenia zasięgu swoich zaklęć po przez wykorzystanie lodu z otoczenia",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -324,7 +324,7 @@
                   "id": "57042654-9ae8-42bb-9426-42b559a575f3",
                   "text": "Możliwość tworzenia lodowych, statycznych tworów wykorzystując wodę z otoczenia",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -367,7 +367,7 @@
                   "id": "00e52ce7-ab5b-4c8a-ad65-0535ce183b79",
                   "text": "Możliwość oddychania pod wodą na głębokość do 5 metrów i określoną ilość tur",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -383,7 +383,7 @@
                   "id": "f99117b5-b5a4-439f-b314-6355c7ceaed8",
                   "text": "Możliwość otoczenia dłoni wodą do neutralizowania ciepła, magii oraz bezpośedniej ofensywny",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -391,7 +391,7 @@
                   "id": "948d23b1-6117-4f8c-8b14-572585cc70d7",
                   "text": "Możliwość stworzenia pocisku wodnego",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 }
@@ -405,7 +405,7 @@
                   "id": "6a027e69-90a6-42c5-8d02-bc0340517478",
                   "text": "Możliwość oddychania pod wodą na głębokość do 10 metrów i określoną ilość tur",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -413,7 +413,7 @@
                   "id": "16feb30e-8683-4ff8-a925-e3803d3bc4c8",
                   "text": "Zdolność do manipulowania wody pochodzenia naturalnego w celach ofensywnych",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -421,7 +421,7 @@
                   "id": "cbdd47ff-d9cc-4af5-bb7a-09e36933c8ba",
                   "text": "Możliwość tworzenia sztucznej wody jako katalizator do zaklęć lub w celach ofensywnych",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -443,7 +443,7 @@
                   "id": "86a32dee-8cf9-48d3-8098-e0080ab2d086",
                   "text": "Możliwość oddychania pod wodą na głębokość do 15 metrów i określoną ilość tur",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -451,7 +451,7 @@
                   "id": "b1bf95b0-f497-4ee3-97ce-0c530e3bb1d9",
                   "text": "Możliwość stworzenia sztucznego deszczu",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -459,7 +459,7 @@
                   "id": "4a6ca2ef-75e6-438c-b4d1-2401dfc3e2a3",
                   "text": "Zdolność do tworzenia wodnych struktur i modyfikowania terenu",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -467,7 +467,7 @@
                   "id": "7b2286ac-48bf-4655-b79b-5b3d3e95cc59",
                   "text": "Możliwość stworzenia ostrych pocisków z kropel deszczu",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -475,7 +475,7 @@
                   "id": "317521ec-8e14-4a47-b397-def6326f9063",
                   "text": "Możliwosć kontrolowania wody znajdującej się w ludzkim ciele",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -534,7 +534,7 @@
                   "id": "7897f964-5337-4e5a-ba7a-88f52cc5840a",
                   "text": "Możliwosć formowania niewielkich, kamiennych pocisków",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -542,7 +542,7 @@
                   "id": "a57464d2-6d12-4603-90ad-d148df4b87d5",
                   "text": "Możliwość stworzenia kamiennej ściany",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 }
@@ -564,7 +564,7 @@
                   "id": "544c5a36-fbd3-4c92-a497-3efaa673cfab",
                   "text": "Możliwośóć kontrolowania terenu po przez tworzenie ścian i kopuł",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -572,7 +572,7 @@
                   "id": "46dd0c4f-7a96-4e8a-8984-5c6247087f75",
                   "text": "Zdolność do wywołania trzęsienia ziemi w celu zneutralizowania zakleć, dezorientacji przeciwników bądź zniszczeniu zabudowy miejskiej",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -580,7 +580,7 @@
                   "id": "eed37acc-b0d6-4114-9c9c-b86c8e69015b",
                   "text": "Możliwość otoczenia maksymalnie dwóch kończych kamienną warstwą ochronną",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 }
@@ -602,7 +602,7 @@
                   "id": "a77c0143-cd80-4ca3-9486-5bbe7962189c",
                   "text": "Zdolność do całkowitej manipulacji terenu i tworzenia zamkniętych struktur",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -610,7 +610,7 @@
                   "id": "04924e39-bbf7-4a5c-8342-9461260da2de",
                   "text": "Możliwość wykrywania przeciwników bądź innych osób, po przez wyczuwanie drgań ziemi",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -618,7 +618,7 @@
                   "id": "79219f0a-97a2-4dd7-b72c-cfd8c9369147",
                   "text": "Możliwość stworzenia kamiennej zbroi pokrywającej całe ciało",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 }
@@ -661,7 +661,7 @@
                   "id": "4f18a263-e610-432e-a453-c041901dde4f",
                   "text": "Możliwosć stworzenia niewielkiej tarczy wiatru",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -669,7 +669,7 @@
                   "id": "54a086e7-28be-4acc-9932-2f0b79474aff",
                   "text": "Możliwość wykonania wietrznych cięć",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -677,7 +677,7 @@
                   "id": "729d0c6a-8508-49e8-928b-6ed992dc0817",
                   "text": "Możliwość posłania fali wiatru do neutralizowania magii oraz wpływania na otoczenie",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -707,7 +707,7 @@
                   "id": "4ad0f26b-ed3d-4570-948f-65bb3da8378a",
                   "text": "Możliwość zamiany dwóch kończyn w wiatr w celu uniknięcia krytycznych obrażeń",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -715,7 +715,7 @@
                   "id": "b782c9ef-7429-4965-b75c-7db50078e925",
                   "text": "Możliwość utworzenia ogromnej, wytrzymałem kopuły w celach defensywnych",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -723,7 +723,7 @@
                   "id": "ff0a0c7c-7c68-4135-a709-5ac98b0b657e",
                   "text": "Zdolnosć do stworzenia ostrzy wiatru, które wyrastają z ramienia maga",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -731,7 +731,7 @@
                   "id": "35644e58-4584-426b-92f6-6766585c5310",
                   "text": "Możliwość wykorzystania wiatru jako nośnika informacji i komunikacji",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -761,7 +761,7 @@
                   "id": "0bd7456d-4802-45e5-9b33-440f9617946d",
                   "text": "Możliwość stworzenia większej ilości ścian wiatru",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -769,7 +769,7 @@
                   "id": "69740694-7089-459a-a654-0ee9d7a9f9bc",
                   "text": "Możliwość stworzenia specjalnej strefy otoczonej wiatrem, która jest w stanie zamknąć przeciwników wewnątrz odcinając ich od świata zewnętrznego",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
@@ -777,13 +777,299 @@
                   "id": "fc213a91-69f3-41ef-94a0-fcf36994008f",
                   "text": "Możliwość otoczenia całego ciała wiatrem",
                   "badge": {
-                    "type": "NEW",
+                    "type": "ADD",
                     "text": "Dodano"
                   }
                 },
                 {
                   "id": "a3a5bd93-3d42-48f6-9446-adb3e81b8dcd",
                   "text": "Zdolność do zamiany połowy ciała w wiatr",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "6213a8d2-1211-4aa8-a297-916c22fce26d",
+        "name": "Magia Śniegu",
+        "imageUrl": "https://imgur.com/eGp6V9C.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=268",
+        "alt": "Blondwłosa postać za okręgiem magicznym",
+        "changes": {
+          "main": [
+            {
+              "id": "3af66f3f-a4f4-46ef-ab86-8d4c1addb125",
+              "text": "Zmieniono koszta PU z 180/290/390 na 170/270/450",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "dacf2035-ea41-4814-be1d-090e0a31c195",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "c0dfe285-bed0-4a70-ad02-2a6c4cea112a",
+                  "text": "Możliwość schłodzenia ciała pojedynczego przeciwnika o -5 °C na określoną ilość tur",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "dc122a50-635c-45be-a76b-3d5d4cb15829",
+                  "text": "Zdolność do tworzenia kilku ścian śnieżnych w celach defensywnych",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "4145c46c-ea7c-4427-8444-4eec8b515b40",
+                  "text": "Zdolność do wystrzeliwania śnieżnych kul z dłoni",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "40322067-79e4-4d98-b57f-7e8a04781f6c",
+                  "text": "Możliwość do niewielkiego modyfikowania terenu wokół maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fa3371c0-0852-46f5-9bff-f05d1617d15f",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "c95c67a8-391a-41b9-9026-7ab9244066b4",
+                  "text": "Możliwość schłodzenia ciała maksymalnie dwóch przeciwników o -10 °C na określoną ilość tur",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "0ca39907-558b-4b11-80ee-454eebdf623a",
+                  "text": "Zdolność do stworzenia śnieżnej sfery mającej za zadanie więzić większą ilość przeciwników",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "0a6e6755-270b-4378-b6f9-b143cc1bb331",
+                  "text": "Możliwość tworzenia śnieżnych włóczni ciskanych bezpośrednio z dłoni",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "7a7e16c2-0655-4d17-8cde-f0c6711fccef",
+                  "text": "Możliwość tworzenia większych obiektów ze śniegu z otoczenia",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                },
+                {
+                  "id": "440a1299-ea76-4b50-b21b-176252891bda",
+                  "text": "Możliwość zamiany kończyny w śnieg",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "8a6e6ba9-2d56-4a4b-96be-1a7abd8a3d69",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "f7dac079-4d82-4f9a-8c88-6f1cf4fc1973",
+                  "text": "Możliwość schłodzenia ciała maksymalnie trzech przeciwników o -15 °C na określoną ilość tur",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "7abe2383-bdea-4d15-bc54-dd4a741f8dc1",
+                  "text": "Możliwość stworzenia ogromnej ilości śnieżnych kolców wokół maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "22d7e231-1a6c-4852-942a-b992b2235fae",
+                  "text": "Możliwość stworzenia ogromnej śnieżnej ściany blokującej zaklęcia i ataki fizyczne",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "5a10127d-7ba5-4bfe-a284-5dd9f7155848",
+                  "text": "Zdolność do uformowania śnieżnej areny wykorzystując śnieg z otoczenia, która więzi przeciwników wewnątrz",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "b3e5b46b-4a9c-4798-9c96-546a101a36ad",
+                  "text": "Możliwość zmiany połowy ciała w śnieg",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "f3549f6c-d497-453e-914a-a94aeecc22bb",
+        "name": "Magia Światła",
+        "imageUrl": "https://imgur.com/tKEz4HE.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=240",
+        "alt": "Wieża niszczona energią światła od środka",
+        "changes": {
+          "main": [
+            {
+              "id": "4aacbf49-dc15-4d5f-9919-e8c82b997ac3",
+              "text": "Zmieniono koszta PU z 180/270/390 na 170/260/430",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "80d309ec-f33d-40af-9ab4-28adc2f44418",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "648ffeea-9b4f-43d3-b147-667a7d588e00",
+                  "text": "Możliwość stworzenia kuli światła, do oświetlenia terenu wokół maga",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "657ac0a2-3ce3-422a-b8b7-61f8945b9ae1",
+                  "text": "Zdolność do tworzenia błysków światła oślepiających przeciwników",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Nowość"
+                  }
+                },
+                {
+                  "id": "7c6af865-52dd-4106-8630-a2ddd0639495",
+                  "text": "Możliwość wystrzelenia świetlistych pocisków",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "5a0d4383-dee5-4933-8011-19fe9a31d7b4",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "09d18ccf-2080-4142-b5d9-3d891f64fdcf",
+                  "text": "Możliwość stworzenia kuli światła, do oświetlenia terenu wokół maga",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "b2b1fceb-526c-42ed-9cfd-bd7e220df28e",
+                  "text": "Możliwość tworzenia świetlistego klona, do dezorientacji przeciwników",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "c80eaf4d-415d-4893-b420-6b82e1826047",
+                  "text": "Zdolność do stworzenia ogromnego snopu światła w celach ofensywnych",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "57022d38-88a9-4ae1-9f28-c28ff9006af9",
+                  "text": "Możliwość stworzenia kuli światła w dowolnym miejscu na ciele sojusznika",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "bacf4311-bd90-4f17-a251-99723e6532a2",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "90e0efb0-5a75-4e79-8e42-d4a057e33d84",
+                  "text": "Możliwość stworzenia kuli światła, do oświetlenia terenu wokół maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "02c824d4-4faa-4ce6-bd33-5ec4872b96fa",
+                  "text": "Możliwość wystrzelenia wiązek światła z lamp bądź innych źródeł, znajdujących się dookoła maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "5faeffa8-bc42-4a2c-b168-9a1e64cf3639",
+                  "text": "Możliwość zamknięcia przeciwnika w niewielkiej klatce w kształcie piramidy",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "963be28a-5f6e-4f1c-942f-7a4b3b0e3fbf",
+                  "text": "Zdolność do stworzenia kilku tarcz światła, które idealnie blokują nadchodzące ataki fizyczne i magiczne",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "49fdbf23-864b-4fcf-97f0-2b8662d6c416",
+                  "text": "Całkowita zamiana ciała w światło",
                   "badge": {
                     "type": "DELETE",
                     "text": "Usunięto"

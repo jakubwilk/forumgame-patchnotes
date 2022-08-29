@@ -1069,7 +1069,571 @@
                 },
                 {
                   "id": "49fdbf23-864b-4fcf-97f0-2b8662d6c416",
-                  "text": "Całkowita zamiana ciała w światło",
+                  "text": "Możliwość do całkowitej zamiany ciała w światło",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "541d84e4-4e75-45af-b0bc-ac347013c0ea",
+        "name": "Magia Ciemności",
+        "imageUrl": "https://imgur.com/RDQXAUb.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=242",
+        "alt": "Postać w wojskowym mundurze z rąk której ulatuje zielona magia",
+        "changes": {
+          "main": [
+            {
+              "id": "cdaa424d-c461-4fc1-92c3-d1f882e4cc56",
+              "text": "Zmieniono koszta PU z 160/280/370 na 150/270/420",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "91dd51f7-e4fc-487b-ab3a-619ad89ae525",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "c14c3435-3b33-48af-b90a-8d5507112e1f",
+                  "text": "Możliwość tworzenia ramion ciemności wydłużając zasięg chwytu maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "f7ff6e32-c087-4146-976b-33e47f42b5fb",
+                  "text": "Możliwość wypuszczenia z dłoni fali ciemności",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "a19f7aab-b579-41a1-bc7b-184070b2a0a8",
+                  "text": "Zdolność do tworzenia magicznej ściany, która nie tylko blokuje zaklęcia i ataki, ale również wizje",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "4b90bb23-dbd5-49b7-902e-674bcea1d2e5",
+                  "text": "Zdolność do rozpraszania ciemności wokół maga",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "af0d83d0-6aef-4325-8b00-9ab49b166c44",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "3cb68b0d-ff49-45f0-9ba4-f37d2e62a17a",
+                  "text": "Możliwość zamiany maksymalnie dwóch kończyn w ciemność",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "c230d62d-cb72-4849-9cb2-3148119c721d",
+                  "text": "Zdolność do stworzenia plamy ciemności, która wchłania przeciwników",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "c2bed7a9-f202-4a7d-843e-2353a77c3054",
+                  "text": "Możliwość stworzenia szponów ciemności do walki na bliskim dystansie",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "3df4cb11-506c-4fee-b138-58fb003d44d6",
+                  "text": "Możliwość stworzenia niewielkich kolców ciemności wyrastających z ziemi dookoła maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "edd96f9e-d139-43c4-beb5-1275394b9b23",
+                  "text": "Zdolnosć do pokrycia terenu ciemnością wokół maga",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "9e6cfc4e-b2df-40d9-934a-d65d6aed8caf",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "a60a3246-4464-48e2-9f3a-dbbf014dac14",
+                  "text": "Możliwość zjednoczenia się z ciemnością  z otoczenia, powodując że mag całkowicie znika z pola widzenia",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "3c91a720-125e-4db9-91e3-e24601b575f8",
+                  "text": "Możliwość stworzenia ogromnej areny ciemności do zamkniecia kilku przeciwników jednocześnie",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "3a5cce43-4e26-48e5-8bcd-cd3e15daa705",
+                  "text": "Zdolnośc do wystrzelania kul ciemności",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "6a1e71c7-2bc3-4646-99a3-72713a9599b1",
+                  "text": "Zdolność do manipulowania ciemnością po przez zamianę swoich bądź kończyn sojuszników",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                },
+                {
+                  "id": "e45b226a-6618-4a6a-aea8-7752486cfded",
+                  "text": "Możliwość całkowitej zamiany ciała w ciemność",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "eb5e4101-41a8-4345-b7a9-90df84c7c58d",
+        "name": "Magia Błyskawicy",
+        "imageUrl": "https://imgur.com/B4dSWgt.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=238",
+        "alt": "Laxus na tle żółtej poświaty jego magii",
+        "changes": {
+          "main": [
+            {
+              "id": "41f05480-62b2-4d9a-a29c-95f1060cfedf",
+              "text": "Zmieniono koszta PU z 180/280/380 na 140/260/430",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "43b2cdb2-720e-4981-be6c-111cd149ce65",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "7a797946-6ccf-47ef-83b7-91064d3686e2",
+                  "text": "Zdolność do otoczenia całego ciała błyskawicami",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "ffa582d5-cdfe-4e5e-9433-b07af8361bfe",
+                  "text": "Możliwosć ciskania błyskawicami w kierunku przeciwnika",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "9d86d144-6d9f-431c-abf3-e1ed8f5a7bcb",
+                  "text": "Możliwość stworzenia kuli błyskawic, która służy jako źródło światła",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "fc0cef38-2a70-47b2-b021-fb3a0798fa5d",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "3a8fb13f-8a73-4d55-bd5c-45bd55178a26",
+                  "text": "Możliwość pokrycia błyskawicami jedno z ramion",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "8d9d09d7-7da2-420d-96c4-c59cd38ff11a",
+                  "text": "Możliwość stworzenia ogromnej, zamkniętej sfery otoczonej błyskawicami",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "1bb25203-45e5-49c6-8853-4d71bf3a41ef",
+                  "text": "Zdolność do wykorzystania błyskawicy, po przez wycelowanie jej w jeden punkt",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "156c5ae2-8bda-4a88-9af4-96a2416b93ab",
+                  "text": "Możliwość zamknięcia przeciwnika w klatkę złożoną z błyskawic",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "ee315788-0b9c-466c-97d3-69dbb4239d45",
+                  "text": "Zdolnosć stworzenia zbroi błyskawic",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "b4218d4e-0115-4ed7-ac03-9a6c9d95c998",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "e9030099-074b-4bd9-af4e-7bc3357b1236",
+                  "text": "Możliwosć stworzenia ostrza błyskawicy do walki na bliskim dystansie",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "b437447c-ccf0-4423-b304-d22cdf33106e",
+                  "text": "Zdolność do kierowania błyskawic w ziemie",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "7819f8cb-3ff4-4693-a4e4-bce7a7eb687c",
+                  "text": "Możliwość stworzenia magicznych kul błyskawic, które ściągają na siebie nadchodzące zaklęcia",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "0b70902d-c3a1-481e-9821-eee02d8b13b9",
+                  "text": "Możliwość stworzenia włóczni błyskawicy",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "5ca787ea-d6d3-4496-b885-faebfaa34672",
+                  "text": "Możliwość całkowitej zamiany w błyskawice",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "24e8125b-58ff-4371-8fbc-48cf6c1a435b",
+        "name": "Magia Piasku",
+        "imageUrl": "https://imgur.com/ZN9af2d.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=239",
+        "alt": "Wybuch piachu na czubku góry",
+        "changes": {
+          "main": [
+            {
+              "id": "537a3762-4e3f-4696-83fc-2752a95d9cc1",
+              "text": "Zmieniono koszta PU z 170/280/380 na 140/280/430",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "0710d252-dd63-4062-ae8b-46d1ce4cf2ef",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "4423c5cc-87c5-4d37-8210-95d2ec0b970e",
+                  "text": "Możliwość manipulowania pobliskiego terenu po przez tworzenie wzniesien i dolin w celach defensywnych",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "c518a908-176c-47f8-b7f6-ba675b5108f7",
+                  "text": "Możliwość stworzenia ściany piasku wykorzystując go z otoczenia maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "44b30241-0dd2-4820-a5c5-ba6e24bf2001",
+                  "text": "Zdolność do wystrzelenia pocisków piasku prosto z dłoni",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "33c12f70-c1ec-4821-9538-7d13c49a530e",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "314f389b-fdfe-4e24-b4b0-b2dea992d596",
+                  "text": "Możliwość pokrycia ramion piaskiem w celu uniknięcia krytycznych obrażeń",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "9d2ce938-14b7-4d3b-9b1b-281913661546",
+                  "text": "Możliwosć tworzenia piaskowych filarów w celach defensywnych bądź kontrolowania otoczenia",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "301795c1-1281-41fe-aeb9-c9f2aa4b73e2",
+                  "text": "Zdolność do stworzenia piaskowej fali skierowaną w kilku przeciwników jednocześnie",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "13e8d117-2260-40e2-bae7-1c377d858df5",
+                  "text": "Zdolnosć do zamkniecia przeciwnika w niewielkiej piaskowej klatce",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "bfa009a0-8119-41af-8ee9-49af2f8e4593",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "5ec265b3-4020-4d71-a03b-5017df36054d",
+                  "text": "Zdolność do pokrycia całego ciała piaskiem",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "6b7a1646-c5de-4ce4-aaa6-2c1cdf3f27ad",
+                  "text": "Możliwosć tworzenia dwóch ogromnych dłoni zbudowanych z piasku, którymi można sterować na dystans",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "228a4ac7-f88e-4a09-82a1-3faeac9cdceb",
+                  "text": "Zdolność do stworzenia ogromnej piaskowej klatki wykorzystując piasek z otoczenia maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "f7969bd3-4367-4b03-94da-67c37b1d6d66",
+                  "text": "Możliwość stworzenia piaskowych włóczni, którymi można strzelać w kierunku przeciwników",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "8b400e0d-fa41-453e-9c2b-b95878105c01",
+                  "text": "Zdolność do stworzenia kilku piaskowych tarcz",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "dd2472db-2483-4333-8542-50eb516269e0",
+        "name": "Magia Papieru",
+        "imageUrl": "https://i.imgur.com/9j7Q3PQ.jpg",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=243",
+        "alt": "Postać, którą otaczają zielone kawałki papieru",
+        "changes": {
+          "main": [
+            {
+              "id": "e888e5ab-9fd2-4ad4-8db1-357d122470f0",
+              "text": "Zmieniono koszta PU z 160/260/380 na 150/240/410",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "5e0d6284-3170-463d-9dc0-a6aaf9c778b6",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "6e4eeb4a-317c-4c2c-94f5-78deda8cfb10",
+                  "text": "Możliwość stworzenia ogromnej tarczy wykorzystując papier z otoczenia maga",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "732a7f24-511b-4cf0-ba72-2c730a9fa2ca",
+                  "text": "Możliwość stworzenia niewielkich papierowych pocisków możliwych do wystrzelenia w kierunku pojedynczego przeciwnika",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "33cee24f-4468-4e28-ad79-f3abb6e5ee4d",
+                  "text": "Zdolność do wykorzystania kartek papieru jako miny wybuchowej mogącej zranić kilku przeciwników jednocześnie",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "87aa3745-da7b-4564-aad0-6352bd13a5a0",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "74930cf0-a4b3-45f7-87e0-f87bba525ad9",
+                  "text": "Możliwość pokrycia maksymalnie dwóch kończyn papierem",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "9fcb2125-559b-4c02-87f1-5483dbe7e35c",
+                  "text": "Zdolność do stworzenia papierowych ostrzy idealnie sprawdzających się w walce na bliskim dystansie",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "155603a7-90b2-4307-b9c3-343edbea844e",
+                  "text": "Możliwosć kontrolowania treści zapisanej na wszelkiego rodzaju papierze, książek czy gazet",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "a9a6a3a0-fb64-4124-bf65-70eaea246f52",
+                  "text": "Możliwość stworzenia papierowych skrzydeł pozwalających wznieść się w powietrze",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "36ce6688-017a-4516-89e9-802dbd1021a6",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "5c246be4-1114-4865-86df-93995c25d492",
+                  "text": "Możliwość zamiany całego ciała w papier, który chroni przed krytycznymi obrażeniami",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "c7f37d5d-1396-4bd6-87e7-e76c5982cd9e",
+                  "text": "Możliwość przesyłania informacji wykorzystując do tego papier z otoczenia",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "88bd3dcf-28be-4ffe-b2fe-1064d5d49408",
+                  "text": "Zdolność do stworzenia ogromnych papierowych pocisków, którymi można miotać w wielu przeciwników",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "2cd81bab-d280-40bd-a5e5-3fe0d094c2d6",
+                  "text": "Możliwość stworzenia zamknietej areny, blokując całkowicie wizję na świat zewnętrzny",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "3447e1a4-602f-4fd8-b6df-31bf0c7b4e5e",
+                  "text": "Możliwośóć stworzenia papierowej broni",
                   "badge": {
                     "type": "DELETE",
                     "text": "Usunięto"

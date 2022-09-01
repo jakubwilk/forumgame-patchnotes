@@ -52,19 +52,19 @@
           }
         },
         {
-          "id": "08719988-e573-462c-a7dd-2464b01d9e07",
-          "text": "Opisano i określono priorytet dla wszystkich mnożników",
-          "badge": {
-            "type": "NEW",
-            "text": "Nowość"
-          }
-        },
-        {
           "id": "afa0a38e-a752-44b4-9b77-77b2f97ed2a7",
           "text": "Zmieniono próg wytrzymałości dla poszczególnych poziomów SB",
           "badge": {
             "type": "UPDATE",
             "text": "Aktualizacja"
+          }
+        },
+        {
+          "id": "08719988-e573-462c-a7dd-2464b01d9e07",
+          "text": "Opisano i określono priorytet dla wszystkich mnożników",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
           }
         }
       ]
@@ -83,19 +83,19 @@
           }
         },
         {
-          "id": "9a101fea-249f-4db5-b452-1760459ebee1",
-          "text": "Zdefiniowano ogólny wzór wyceny magii pod kątem PU",
-          "badge": {
-            "type": "NEW",
-            "text": "Nowość"
-          }
-        },
-        {
           "id": "494de6fa-d18c-44ee-9d7d-fc6074830f97",
           "text": "Zmniejszono ilość wymaganego PW do magii własnych",
           "badge": {
             "type": "UPDATE",
             "text": "Aktualizacja"
+          }
+        },
+        {
+          "id": "9a101fea-249f-4db5-b452-1760459ebee1",
+          "text": "Zdefiniowano ogólny wzór wyceny magii pod kątem PU",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
           }
         }
       ]
@@ -160,24 +160,16 @@
           }
         },
         {
-          "id": "9876eb55-484d-4f10-be36-e8d66f7e10bb",
-          "text": "Usunięto opcję skracania treningów",
-          "badge": {
-            "type": "DELETE",
-            "text": "Usunięto"
-          }
-        },
-        {
-          "id": "558f4eae-9fea-452e-b923-d48c1a0e0fc1",
-          "text": "Skasowano notkę o treningach niestandardowych i specjalnych",
-          "badge": {
-            "type": "DELETE",
-            "text": "Usunięto"
-          }
-        },
-        {
           "id": "58a05c18-8464-43df-ac4a-8b766110adcf",
           "text": "Zmieniono system treningów zwykłych oraz Mistrz i Uczeń",
+          "badge": {
+            "type": "UPDATE",
+            "text": "Aktualizacja"
+          }
+        },
+        {
+          "id": "d1a7a606-6647-4a30-b6a8-e199531f965e",
+          "text": "Zmieniono wynagrodzenie treningu w przypadku Mistrza",
           "badge": {
             "type": "UPDATE",
             "text": "Aktualizacja"
@@ -192,11 +184,19 @@
           }
         },
         {
-          "id": "d1a7a606-6647-4a30-b6a8-e199531f965e",
-          "text": "Zmieniono wynagrodzenie treningu w przypadku Mistrza",
+          "id": "9876eb55-484d-4f10-be36-e8d66f7e10bb",
+          "text": "Usunięto opcję skracania treningów",
           "badge": {
-            "type": "UPDATE",
-            "text": "Aktualizacja"
+            "type": "DELETE",
+            "text": "Usunięto"
+          }
+        },
+        {
+          "id": "558f4eae-9fea-452e-b923-d48c1a0e0fc1",
+          "text": "Skasowano notkę o treningach niestandardowych i specjalnych",
+          "badge": {
+            "type": "DELETE",
+            "text": "Usunięto"
           }
         }
       ]
@@ -261,14 +261,6 @@
       "link": "https://www.mageguildwars.pl/",
       "changes": [
         {
-          "id": "ea59c6c9-4c43-42cd-8423-c13b0f9c3362",
-          "text": "Wydzielono osobny poradnik na system obrażeń i leczenia",
-          "badge": {
-            "type": "NEW",
-            "text": "Nowość"
-          }
-        },
-        {
           "id": "b7ddf302-4188-40a0-9aca-7ee0dfcdd43c",
           "text": "Zaktualizowano opisy dla typów ran oraz sposoby ich leczenia",
           "badge": {
@@ -282,6 +274,14 @@
           "badge": {
             "type": "UPDATE",
             "text": "Aktualizacja"
+          }
+        },
+        {
+          "id": "ea59c6c9-4c43-42cd-8423-c13b0f9c3362",
+          "text": "Wydzielono osobny poradnik na system obrażeń i leczenia",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
           }
         },
         {
@@ -408,19 +408,19 @@
       "link": "https://www.mageguildwars.pl/",
       "changes": [
         {
-          "id": "20df2d8a-0f7d-495a-8dfb-75adb817db5d",
-          "text": "Wydzielono wpis do osobnego wątku",
-          "badge": {
-            "type": "NEW",
-            "text": "Nowość"
-          }
-        },
-        {
           "id": "3f1ce990-816e-4cd1-9c42-4aa4f305851c",
           "text": "Zaktualizowano zawartość poradnika",
           "badge": {
             "type": "UPDATE",
             "text": "Aktualizacja"
+          }
+        },
+        {
+          "id": "20df2d8a-0f7d-495a-8dfb-75adb817db5d",
+          "text": "Wydzielono wpis do osobnego wątku",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
           }
         }
       ]
@@ -438,6 +438,14 @@
           }
         },
         {
+          "id": "e3973fba-6570-43f2-b043-a4ed8521fa44",
+          "text": "Dodano poradnik Spis poradników",
+          "badge": {
+            "type": "NEW",
+            "text": "Nowość"
+          }
+        },
+        {
           "id": "a16a00b5-0aad-4435-a4af-0999d6b8fb04",
           "text": "Usunięto poradnik Podstawy",
           "badge": {
@@ -451,14 +459,6 @@
           "badge": {
             "type": "DELETE",
             "text": "Usunięto"
-          }
-        },
-        {
-          "id": "e3973fba-6570-43f2-b043-a4ed8521fa44",
-          "text": "Dodano poradnik Spis poradników",
-          "badge": {
-            "type": "NEW",
-            "text": "Nowość"
           }
         }
       ]

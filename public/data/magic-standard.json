@@ -5,6 +5,14 @@
       "name": "Zmiany ogólne",
       "changes": [
         {
+          "id": "b52efa81-90c9-4f64-a2c0-5f95b5899e94",
+          "text": "Wszystkie magie zwykłe posiadają od teraz te same koszta PW równe 150/300/450",
+          "badge": {
+            "type": "UPDATE",
+            "text": "Aktualizacja"
+          }
+        },
+        {
           "id": "215fd44b-20a1-4f06-a46a-89ca4debff5c",
           "text": "Dodano specjalne nagłówki z poziomem oraz nazwą magii",
           "badge": {
@@ -18,14 +26,6 @@
           "badge": {
             "type": "DELETE",
             "text": "Usunięto"
-          }
-        },
-        {
-          "id": "b52efa81-90c9-4f64-a2c0-5f95b5899e94",
-          "text": "Wszystkie magie zwykłe posiadają od teraz te same koszta PW równe 150/300/450",
-          "badge": {
-            "type": "UPDATE",
-            "text": "Aktualizacja"
           }
         }
       ]
@@ -1634,6 +1634,427 @@
                 {
                   "id": "3447e1a4-602f-4fd8-b6df-31bf0c7b4e5e",
                   "text": "Możliwośóć stworzenia papierowej broni",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "2f4b535d-51ce-477b-bc92-c73d059200f4",
+        "name": "Magia Roślin",
+        "imageUrl": "https://imgur.com/wpqc4V7.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=252",
+        "alt": "Postać rzucająca ziarenka ku ziemi",
+        "changes": {
+          "main": [
+            {
+              "id": "811dff61-7516-4202-b6cf-79086d6a7876",
+              "text": "Zmieniono koszta PU z 150/270/380 na 150/270/410",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "f5f707c1-aad5-48fd-872f-3eac8489cd9f",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "8bec3bf8-2af1-416a-b0a6-d225ee4d4f02",
+                  "text": "Możliwość przyspieszenia wzrostu trawy dookoła maga",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "7563daed-029d-4d2a-9bf4-7d86040320d4",
+                  "text": "Zdolność do kontrolowania trawy dookoła maga, by wykorzystać ją do zatrzymania przeciwnika",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "808a69d9-6ab8-44ca-bd11-f2144640c1c8",
+                  "text": "Możliwość stworzenia ogromnego kwiatu, który może posłużyć jako tarcza",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "16b55105-c200-4730-bc96-0eaf51646009",
+                  "text": "Zdolność do stworzenia malutkich kwiatków, z których możliwe jest wystrzelenie pyłkowych pocisków",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "8914f53f-d86c-4f37-8a36-2e8676393a71",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "365f05d1-2087-44ec-bfd7-074367ccf827",
+                  "text": "Zdolność do manipulowania większymi krzewami oraz małymi drzewami w celu zatrzymania na dłużej przeciwników",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "3051edf9-471b-48b6-895b-53f780e27677",
+                  "text": "Możliwośc manipulowania drzewami znajdującymi się w otoczeniu maga, po przez z modyfikowanie długości kory w celu tworzenia defensywnych osłon",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "7cc3b7d6-25fd-47e7-ae2a-8deb6b0c877b",
+                  "text": "Zdolność do wystrzeliwania drewnianych pocisków",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "dbe5f16d-3d0f-4a2e-a4b3-bc8ea0064327",
+                  "text": "Możliwość stworzenia roślinnych klatek do zamykania przeciwników",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "bf324226-d675-48f5-8427-3540874edbaa",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "2c155af6-1ca4-416d-87df-2fd72913d60c",
+                  "text": "Zdolność do pokrycia drewnem całego ciała, tworząc tym samym bardzo wytrzymają zbroję",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "2d23fc46-eb96-401c-ad75-57cde00744aa",
+                  "text": "Możliwość wzmocnienia otaczającej maga zieleni, tworząc tym samym solidny i sporych rozmiarów mur",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "46598c8b-19a7-4c49-b711-cff318569d28",
+                  "text": "Możliwość stworzenia roślinnych min eksplodujących na określonym obszarze",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "6f09b00a-2c23-47f4-9b2a-243d9827b633",
+                  "text": "Zdolność do stworzenia wytrzymałego roślinnego miecza, który jest w stanie ułatwić walkę w zwarciu",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "3706a5c2-db39-4266-ae1f-b04b08bccd9b",
+                  "text": "Możliwośóć manipulowania roślinami, po przez stworzenie niewielkiej tarczy",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "2e09a28f-d179-4fdc-b67c-8801bc77f109",
+        "name": "Magia Cienia",
+        "imageUrl": "https://imgur.com/MDIW2dd.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=270",
+        "alt": "Wijące się cienie uderzające w drewniane skrzynki",
+        "changes": {
+          "main": [
+            {
+              "id": "a3a3ec44-3d39-4c3d-8d7a-78323ee7e3be",
+              "text": "Zmieniono koszta PU z 180/280/390 na 150/270/420",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "9710a96a-e56e-4d6d-b8c5-58e8d8cdd593",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "ab9d198d-05f1-4fcf-8c42-dcfdd5444cf7",
+                  "text": "Możliwość manipulowania cieniem i przekształcenia go w niewielką tarczę",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "243fe392-4a62-4454-9698-4d1b28d5ace6",
+                  "text": "Możliwość kontrolowania ruchów innej osoby",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "53c8a833-3024-4799-bf8b-40e669aeb275",
+                  "text": "Zdolność do rozszerzania i zwężąnia cienia w celu wyprowadzania ataków z dystansu",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "59a75949-613b-4660-a178-663862deadca",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "f80329cc-8676-4b7a-9b29-d52add5dd081",
+                  "text": "Możliwość kontrolowania ruchów innej osoby",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "52ac7f1a-3942-45ea-ad7a-03ef006449a1",
+                  "text": "Możliwość wystrzelenia niewielkich pocisków z własnego cienia",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "51b01219-0c04-4351-897c-b484b0899a42",
+                  "text": "Możliwość stworzenia zasłony w celu uniknięcia poważnych obrażeń",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "ac348d2e-896e-4189-8c8a-1e37b393913a",
+                  "text": "Zdolność do zanurzenia własnego ciała w cieniu, pod warunkiem że w pobliżu brakuje źródeł światła",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "668e74b6-4cee-4940-8212-a5bda4b562de",
+                  "text": "Zdolność do przemiany jednej ze swoich kończyn w cień",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "07305f77-f1ec-4f86-bf64-55bb600b39fb",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "f2b0ee41-d0be-4b0c-a2f3-286694bd54b0",
+                  "text": "Możliwość kontrolowania ruchów innej osoby",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "96f072ba-d860-41fc-ab0e-14f0c0150b32",
+                  "text": "Zdolność do błyskawicznego przemieszczania się między różnymi obiektami, które rzucają cień",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "a7e53201-1a69-45a7-94e0-f21bde73b2cd",
+                  "text": "Możliwość wystrzelenia cienistych kolców prosto z dłoni",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "24a374e0-a2b6-4482-a5ba-6c1f97d8e628",
+                  "text": "Możliwość stworzenia ogromnej kopuły cienia w celach defensywnych, ale również ofensywnych do odseparowania mniejszej grupy przeciwników",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "d321c0de-9380-403b-a28f-fcf11b6d5c88",
+        "name": "Magia Dźwięku",
+        "imageUrl": "https://imgur.com/GKUmjjb.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=315",
+        "alt": "Wijące się cienie uderzające w drewniane skrzynki",
+        "changes": {
+          "main": [
+            {
+              "id": "a8f91d21-c1f1-4c36-9600-8b1d3f26ed83",
+              "text": "Zmieniono koszta PU z 180/270/380 na 160/280/420",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "6d36faec-66d9-4a70-9afd-b39a6dd91a8a",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "779223e5-82df-4c55-8c07-fb3ffd008b0e",
+                  "text": "Zdolność do przechwytywania cichych rozmów i szeptów dookoła maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "74fe02f9-b34e-4a87-a15c-aa82dece91cf",
+                  "text": "Możliwość wystrzeliwania niewielkich pocisków dźwięku",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "79583164-4989-4539-9e79-ae244642153a",
+                  "text": "Zdolność do stworzenia niewielkiej, wibrującej kuli z dźwięków zbieranych z otoczenia",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "70e30fdf-3147-4808-98c3-f0e9103a6082",
+                  "text": "Możliwość do dezorientacji przeciwnika po przez wypuszczenie impulsu dźwięku",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "3cd64db3-7a87-447d-8817-cffb83985edc",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "fa5d43ae-0542-490a-b7b1-5297269ed50e",
+                  "text": "Zdolność do przechwytywania cichych rozmów i szeptów na większym obszarze dookoła maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "d99934f5-bbcd-49b6-bfd5-b13e4fbdcf1e",
+                  "text": "Możliwość wystrzelenia potężnego impulsu dźwięku, który jest w stanie nie tylko zdekoncentrować przeciwników, ale również ograniczyć ich możliwości bojowe na krótki czas",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "cf5001ed-25e1-488f-9821-dc0ad215c47e",
+                  "text": "Możliwość stworzenia niewielkiej tarczy złożonej z dźwięków z otoczenia",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "3a7c42d4-8f46-4d8c-b1d5-b1b82cbf50be",
+                  "text": "Możliwość stworzenia głuchego obszaru, który pozbawia przeciwników słuchu",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "aa9f299b-3788-43bd-989f-5064eac42c98",
+                  "text": "Zdolność do uszkadzania bębenków na niedługi okres czasu",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "c8100154-03ad-4e2e-b791-89bf6f5b559d",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "0430a607-9e29-478f-9565-d6e5ac1cc7c2",
+                  "text": "Zdolność do przechwytywania cichych rozmów i szeptów na jeszcze większym obszarze dookoła maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "7ead791f-9198-43c8-a4d9-f4367ae24652",
+                  "text": "Możliwość spowodowania niewielkiego wybuchu ze wszystkich źródeł dźwięku znajdujących się dookoła maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "be5e0997-a3bd-4865-9cbd-e94145240ea9",
+                  "text": "Możliwość stworzenia ogromnej włóczni dźwięku, która w zetknięciu z celem wybucha",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "bb9d00e1-8ce3-43ea-aa34-2807a103d1c6",
+                  "text": "Zdolność do rozproszenia ogromnego impulsu uszkadzającego nie tylko bębenki, ale również neutralizującego działania magicznych zdolności",
                   "badge": {
                     "type": "DELETE",
                     "text": "Usunięto"

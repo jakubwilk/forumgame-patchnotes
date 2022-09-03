@@ -1927,7 +1927,7 @@
         "name": "Magia Dźwięku",
         "imageUrl": "https://imgur.com/GKUmjjb.png",
         "pageUrl": "https://mageguildwars.pl/showthread.php?tid=315",
-        "alt": "Wijące się cienie uderzające w drewniane skrzynki",
+        "alt": "Fala dźwięku w kształcie okręgu zmierzająca niszcząca wszystko na swojej drodze",
         "changes": {
           "main": [
             {
@@ -2058,6 +2058,417 @@
                   "badge": {
                     "type": "DELETE",
                     "text": "Usunięto"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "b6696b6d-a4a4-40db-9eaf-126e3a620742",
+        "name": "Figurowe Oczy",
+        "imageUrl": "https://imgur.com/i9lBpJF.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=314",
+        "alt": "Postać maga z językiem na wierzchu i oczami świecącymi na zielono",
+        "changes": {
+          "main": [
+            {
+              "id": "7fd94702-0d3b-4ade-b0e5-a2af3029e44d",
+              "text": "Zmieniono koszta PU z 180/280/390 na 140/270/410",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "de25fa01-df5b-48b5-a193-a863419b0fc3",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "ff3d7037-e25c-475f-95d2-6ad0c961579b",
+                  "text": "Zmieniono koszty transferu duszy ze zwierzęcia i kontroli co turę z 10.000/5.000 na 5.000/2.000",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "2dafb28a-3b8f-42e6-bf4a-869ba8f363e6",
+                  "text": "Możliwość kontrolowania maksymalnie jednej pustej lalki",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "88065cbc-243a-4a88-92f9-00239e07dc31",
+                  "text": "Zdolność do wystrzelenia pojedynczego lasera z dowolnej lalki",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "39af18e7-73ca-410d-8688-a2d50d56f464",
+                  "text": "Możliwość wykorzystania lalki, do zwiększenia zasięgu widoczności maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "992208fb-f4e2-4db2-b6b8-a3bf7d845c8d",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "158af12a-1f09-4a57-bc1e-5bc44771ee3d",
+                  "text": "Możliwość kontrolowania maksymalnie dwóch pustych lalek",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "a1f213ec-46a4-4396-870f-bce28781c7e4",
+                  "text": "Zdolność do manipulowania magią z otoczenia, po przez naprowadzanie wrogich zaklęć na laleczki, które jako pierwsze przyjmują nadchodzący atak magiczny",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "a1f213ec-46a4-4396-870f-bce28781c7e4",
+                  "text": "Możliwość stworzenia niewielkiego, eterycznego ostrza wystającego z lalki, co pozwala na walkę w zwarciu, sterując lalką na odległość",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "0e322a31-db9c-483e-8127-38befbc755bd",
+                  "text": "Możliwość wykorzystania lalki jako miny, która eksploduje na niewielkim obszarze",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "6dec1ef3-ffb3-4eda-8124-538309b4e7ce",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "efc424fe-e37b-4b1b-ab0d-1fbdb003081a",
+                  "text": "Zmieniono koszty transferu duszy z ciała maga i kontroli co turę z 20.000/15.000 na 15.000/8.000",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "83d3b6fb-556d-4acb-be69-72c53ca83d5d",
+                  "text": "Możliwość kontrolowania maksymalnie trzech pustych lalek",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "e8a80f87-7c7d-42e0-8767-6820f0be8faa",
+                  "text": "Zdolność do wykorzystania lalki jako urządzenia do komunikacji na odległość",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "997802d1-37d5-469f-af34-a52ad8c05e41",
+                  "text": "Zdolność do stworzenia wokół laklki niewielkiej, eterycznej zasłony, która może posłużyć jakko tarcza przed nadchodzącymi atakami magicznymi i fizycznymi",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "6cb9be18-99be-406b-94a8-090eaade9177",
+                  "text": "Możliwość wystrzelenia pocisków w kształcie sierpów z pojedynczej lalki",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "974e7092-2f42-43c7-8e16-4df2fcae6215",
+        "name": "Drewniane tworzenie",
+        "imageUrl": "https://imgur.com/rJoWREI.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=269",
+        "alt": "Postać fioletowowłosej dziewczyny, która przywołuje drewno z ziemi",
+        "changes": {
+          "main": [
+            {
+              "id": "1da53548-ba9d-4ea9-95bb-ea114870877f",
+              "text": "Zmieniono koszta PU z 190/280/390 na 140/270/410",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "0d4891ce-addb-4c78-8d0a-46cfe6391076",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "a58eb857-3f78-45dd-84a0-651ac719fcdb",
+                  "text": "Możliwość tworzenia prostych drewnianych przedmiotów, takich jak klucze, kubki, sztuće, mniejsze pojemniki i tym podobne",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "3037a449-7d6e-4af0-aa35-a38651dfe9d3",
+                  "text": "Możliwość tworzenia drewnianych, statycznych menekinów, które mają za zadanie odwzorowywać sylwetki ludzi w celu odwrócenia uwagi",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "576be835-f260-448b-8eec-339c410ef605",
+                  "text": "Zdolność do tworzenia drewnianej tarczy przymocowanej do ręki maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "70f4e348-edcf-4d88-a870-ca85a00807bd",
+                  "text": "Możliwość wystrzelenia drewnianych kolców z dłoni",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "37fd0fb1-e371-41cd-8e35-c3202b622017",
+                  "text": "Zdolność do tworzenia drewnianych elementów wystających z ciała maga",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "301b1ed7-424e-485a-bfd5-b1b781e207bb",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "d5bf6a1d-9319-4f0e-bdee-642bc8f3de05",
+                  "text": "Możliwość stworzenia niewielkich drewnianych elementów drewna wystających z ziemi, które potrafią zablokować ruchy przeciwnika",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "eb9372e0-a1c9-4acd-9d9a-80809246ff10",
+                  "text": "Możliwosć wystrzelenia z dłoni drewnianych bali zmierzających w kierunku jakim wskazuje mag, które wiją się między sobą zwiększając swoją średnice",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "77fa55e8-cf30-4a57-a79c-46b087a9fc96",
+                  "text": "Zdolność do stworzenia drewnianej bariery",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "4b48d700-80e0-49a2-88da-c877c51f635b",
+                  "text": "Zdolność do przyzwania drewnianyah ckolców wyrastających z ziemii wokół maga",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "a25d5800-90d1-4098-bda7-26305da32c46",
+                  "text": "Możliwość tworzenia drewnianych elementów wystających z ciał sojuszników",
+                  "badge": {
+                    "type": "DELETE",
+                    "text": "Usunięto"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "f3717640-ae1d-49c3-8374-6f1da195ae04",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "342278ef-ee4d-4d30-8b3d-6c93b6aa55cf",
+                  "text": "Możliwość tworzenia drewnianych elementów uzbrojenia, które można zarówno aplikować na ciało maga jak i sojuszników",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "d00fd238-12f8-487d-90e1-edb4579eb41d",
+                  "text": "Możliwość stworzenia drewnianej, ale bardzo wytrzymałej zbroi pokrywającej całe ciało",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "353a1691-8684-4bfb-b01d-49baee10e4f6",
+                  "text": "Zdolność do stworzenia ogromnej, drewnianej ściany",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "7f369309-c61d-4b7f-9bef-3f79a1bf4e96",
+                  "text": "Możliwość tworzenia specjalnych kokonów, które zamykają przeciwników wewnątrz odcinając im dopływ tlenu",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "7c4f2f8b-4636-4807-a572-a1813921a9e0",
+                  "text": "Zdolność do stworzenia specjalnej drewnianej włóczni, którą można wystrzelić w kierunku przeciwnika powodując eksplozję",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "9868c5ea-1634-4af7-ab46-5069d1248d3b",
+        "name": "Magia podmiany",
+        "imageUrl": "https://imgur.com/j2lonII.png",
+        "pageUrl": "https://mageguildwars.pl/showthread.php?tid=101",
+        "alt": "Postać Erzy wykorzystująca swoją magię do podmiany",
+        "changes": {
+          "main": [
+            {
+              "id": "62e01804-6257-47ab-a890-686e016a5094",
+              "text": "Zmieniono koszta PU z 200/300/400 na 100/200/350",
+              "badge": {
+                "type": "UPDATE",
+                "text": "Aktualizacja"
+              }
+            }
+          ],
+          "levels": [
+            {
+              "id": "118522e9-af89-42a9-a19d-532f8cbb6f38",
+              "text": "Poziom pierwszy",
+              "changes": [
+                {
+                  "id": "ca4919da-efcf-4fae-bb70-f7a573081210",
+                  "text": "Zmieniono koszt energii magicznej do przywołania zwykłego przedmiotu z 10.000 na 5.000",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "cc7ef25b-2af5-4f23-9f67-f0783465688d",
+              "text": "Poziom drugi",
+              "changes": [
+                {
+                  "id": "03ffbbc0-8e6a-4ecb-b64e-dcc82d365184",
+                  "text": "Zmieniono koszt energii magicznej do przywołania zwykłego przedmiotu z 5.000 na 3.000",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "574410e8-c9b2-400d-9a58-0d8af01ad552",
+                  "text": "Koszt przyzwania magicznego przedmiotu jest teraz zależny od samego przedmiotu",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "5195b234-d896-499f-a23a-9a397bb0469f",
+              "text": "Poziom trzeci",
+              "changes": [
+                {
+                  "id": "0eb84871-a5a3-467b-9188-17e17015cc2d",
+                  "text": "Koszt przyzwania magicznego przedmiotu jest teraz zależny od samego przedmiotu",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "21aada9d-71a3-496e-9e83-9fe9203f668d",
+                  "text": "Koszt podmiany artefaktu zależny jest od samego przedmiotu",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                }
+              ]
+            },
+            {
+              "id": "84c105bd-2a1b-4dd2-9e64-b15ba92c3cb0",
+              "text": "Inne",
+              "changes": [
+                {
+                  "id": "61aceef4-186a-483b-a5dc-5e2cb12393f2",
+                  "text": "Uwzględniono jakie dokładnie przedmioty mag może przechowywać w swoim specjalnym wymiarze",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Aktualizacja"
+                  }
+                },
+                {
+                  "id": "bf7b2fce-b507-4654-be3e-e165886536c9",
+                  "text": "Uwzględniono informację o kosztach przywołania i odesłania przedmiotu",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
+                  }
+                },
+                {
+                  "id": "0a050221-ab1f-4da4-a0fa-d0777e8bd34b",
+                  "text": "Możliwość ukradnięcia przedmiotu, który należy do innej osoby",
+                  "badge": {
+                    "type": "ADD",
+                    "text": "Dodano"
                   }
                 }
               ]

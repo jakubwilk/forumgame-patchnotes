@@ -9,7 +9,7 @@
           "text": "Przeorganizowano strukturę wszystkich poradników rozbijając je na mniejsze części",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         },
         {
@@ -17,7 +17,7 @@
           "text": "Dodano spis poradników kategoryzując je od najważniejszych po najmniej istotne dla rozgrywki",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         }
       ]
@@ -32,7 +32,7 @@
           "text": "Statystyki podstawowe i dodatkowe posiadają bardziej rozbduowany opis",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -40,7 +40,7 @@
           "text": "Zmieniono przedziały w tabelkach porównujących statystyki fizyczne i magiczne",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -48,7 +48,7 @@
           "text": "Zmieniono koszta PU zakupu statystyk",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -56,7 +56,7 @@
           "text": "Zmieniono próg wytrzymałości dla poszczególnych poziomów SB",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -64,7 +64,7 @@
           "text": "Opisano i określono priorytet dla wszystkich mnożników",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         }
       ]
@@ -79,7 +79,7 @@
           "text": "Zaktualizowano opisy dla magii zwykłych, dodatkowych i specjalnych",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -87,7 +87,7 @@
           "text": "Zmniejszono ilość wymaganego PW do magii własnych",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -95,7 +95,7 @@
           "text": "Zdefiniowano ogólny wzór wyceny magii pod kątem PU",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         }
       ]
@@ -110,7 +110,7 @@
           "text": "Dodano opisy analogicznie jak w przypadku magii, dla umiejętności własnych",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         },
         {
@@ -118,7 +118,7 @@
           "text": "Dodano wymaganą minimalną ilość PW do tworzenia umiejętności własnych",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         }
       ]
@@ -133,7 +133,7 @@
           "text": "Skrócono opisy dotyczących wydarzeń w celu łatwiejszego i szybszego przyswajania informacji",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -156,7 +156,7 @@
           "text": "Przeredagowano zasady treningów",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -164,7 +164,7 @@
           "text": "Zmieniono system treningów zwykłych oraz Mistrz i Uczeń",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -172,7 +172,7 @@
           "text": "Zmieniono wynagrodzenie treningu w przypadku Mistrza",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -180,7 +180,7 @@
           "text": "Dodano specjalne tagi treningowe zarówno dla Graczy jak i Administracji",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         },
         {
@@ -211,7 +211,7 @@
           "text": "Zmieniono zasady walk uwzględniając dostępne sposoby toczenia pojedynku",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -219,7 +219,7 @@
           "text": "Zwiększono wynagrodzenie dla uczestników pojedynków",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -242,7 +242,7 @@
           "text": "Zaktualizowano zasady dotyczące śmierci postaci",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -250,7 +250,7 @@
           "text": "Wprowadzono wariant łagodnej śmierci pozwalającej na zachowanie PU, PW i klejnotów ze starej postaci",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         }
       ]
@@ -265,7 +265,7 @@
           "text": "Zaktualizowano opisy dla typów ran oraz sposoby ich leczenia",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -273,7 +273,7 @@
           "text": "Zmieniono działanie efektów ubocznych podczas zranienia",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -281,7 +281,7 @@
           "text": "Wydzielono osobny poradnik na system obrażeń i leczenia",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         },
         {
@@ -289,7 +289,7 @@
           "text": "Ustawiono leczenie oparte o system tur lub dni",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         },
         {
@@ -297,7 +297,7 @@
           "text": "Dodano i zmieniono system regeneracji energii magicznej",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         }
       ]
@@ -312,7 +312,7 @@
           "text": "Zaktualizowano opis dotyczący plusów i minusów bycia samotnikiem",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -343,7 +343,7 @@
           "text": "Zaktualizowano wpis na temat wydalenia z gildii",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -351,7 +351,7 @@
           "text": "Wprowadzono czasowe minusy fabularne dla magów wyrzuconych z gildii",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         },
         {
@@ -359,7 +359,7 @@
           "text": "Dodano wymagania i wzór zakładania własnej gildii",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         }
       ]
@@ -374,7 +374,7 @@
           "text": "Zredagowano treść poradnika",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         }
       ]
@@ -389,7 +389,7 @@
           "text": "Zaktualizowano zawartość poradnika, sprawiając że jest krótszy i prostszy",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -397,7 +397,7 @@
           "text": "Wprowadzono skutki fabularne dla progów reputacji, a także uwzględniono przewagę reputacji pozytywnej lub negatywnej",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         }
       ]
@@ -412,7 +412,7 @@
           "text": "Zaktualizowano zawartość poradnika",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -420,7 +420,7 @@
           "text": "Wydzielono wpis do osobnego wątku",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         }
       ]
@@ -434,7 +434,7 @@
           "text": "Zaktualizowano wątek Poradnik dla nowych, pasujący do nadchodzących zmian",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -442,7 +442,7 @@
           "text": "Dodano poradnik Spis poradników",
           "badge": {
             "type": "NEW",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         },
         {

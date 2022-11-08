@@ -9,7 +9,7 @@
           "text": "Wszystkie magie zwykłe posiadają od teraz te same koszta PW równe 150/300/450",
           "badge": {
             "type": "UPDATE",
-            "text": "Aktualizacja"
+            "text": "Zaktualizowano"
           }
         },
         {
@@ -17,7 +17,7 @@
           "text": "Dodano specjalne nagłówki z poziomem oraz nazwą magii",
           "badge": {
             "type": "ADD",
-            "text": "Nowość"
+            "text": "Dodano"
           }
         },
         {
@@ -44,7 +44,7 @@
               "text": "Zmieniono koszta PU z 150/270/370 na 170/290/450",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -58,7 +58,7 @@
                   "text": "Możliwość podpalania wszystkiego wokół Maga, została zamieniona na podpalanie po kontakcie bezpośrednim, razem z możliwościami ofensywnymi i uzupełniającymi",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Zmiana"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -195,7 +195,7 @@
               "text": "Zmieniono koszta PU z 100/250/340 na 150/290/450",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -354,7 +354,7 @@
               "text": "Zmieniono koszta PU z 170/270/380 na 160/270/460",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -364,19 +364,19 @@
               "text": "Poziom pierwszy",
               "changes": [
                 {
+                  "id": "83c6deca-c2cc-4f88-befd-efc093bdf56d",
+                  "text": "Możliwość tworzenia określonych wodnych tworów w celach defensywnych",
+                  "badge": {
+                    "type": "UPDATE",
+                    "text": "Zaktualizowano"
+                  }
+                },
+                {
                   "id": "00e52ce7-ab5b-4c8a-ad65-0535ce183b79",
                   "text": "Możliwość oddychania pod wodą na głębokość do 5 metrów i określoną ilość tur",
                   "badge": {
                     "type": "ADD",
                     "text": "Dodano"
-                  }
-                },
-                {
-                  "id": "83c6deca-c2cc-4f88-befd-efc093bdf56d",
-                  "text": "Możliwość tworzenia określonych wodnych tworów w celach defensywnych",
-                  "badge": {
-                    "type": "UPDATE",
-                    "text": "Aktualizacja"
                   }
                 },
                 {
@@ -430,7 +430,7 @@
                   "text": "Możliwość zmiany maksymalnie dwóch kończyn w wodę",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 }
               ]
@@ -513,7 +513,7 @@
               "text": "Zmieniono koszta PU z 170/270/370 na 150/280/430",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -527,7 +527,7 @@
                   "text": "Zdolność kontrolowania niewielkich kamyczków i elementów żelaza w ziemi",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -557,7 +557,7 @@
                   "text": "Możliwość manipulowania większymi kawałkami skalnymi i fragmentami żelaza z ziemi",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -595,7 +595,7 @@
                   "text": "Możliwość kontrolowania głazów i fragmenty ścian skalnych, a także żelaza znajdującego się w nich",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -640,7 +640,7 @@
               "text": "Zmieniono koszta PU z 180/280/380 na 160/260/420",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -654,7 +654,7 @@
                   "text": "Możliwość latania za pomocą magii na wyokość 5 metrów przez określoną ilość tur",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -700,7 +700,7 @@
                   "text": "Możliwość latania za pomocą magii na wyokość 10 metrów przez określoną ilość tur",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -754,7 +754,7 @@
                   "text": "Możliwość latania za pomocą magii na wyokość 15 metrów przez określoną ilość tur",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -807,7 +807,7 @@
               "text": "Zmieniono koszta PU z 180/290/390 na 170/270/450",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -821,7 +821,7 @@
                   "text": "Możliwość schłodzenia ciała pojedynczego przeciwnika o -5 °C na określoną ilość tur",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -829,7 +829,7 @@
                   "text": "Zdolność do tworzenia kilku ścian śnieżnych w celach defensywnych",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -859,7 +859,7 @@
                   "text": "Możliwość schłodzenia ciała maksymalnie dwóch przeciwników o -10 °C na określoną ilość tur",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -905,7 +905,7 @@
                   "text": "Możliwość schłodzenia ciała maksymalnie trzech przeciwników o -15 °C na określoną ilość tur",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -958,7 +958,7 @@
               "text": "Zmieniono koszta PU z 180/270/390 na 170/260/430",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -972,7 +972,7 @@
                   "text": "Możliwość stworzenia kuli światła, do oświetlenia terenu wokół maga",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -980,7 +980,7 @@
                   "text": "Zdolność do tworzenia błysków światła oślepiających przeciwników",
                   "badge": {
                     "type": "ADD",
-                    "text": "Nowość"
+                    "text": "Dodano"
                   }
                 },
                 {
@@ -1002,7 +1002,7 @@
                   "text": "Możliwość stworzenia kuli światła, do oświetlenia terenu wokół maga",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1093,7 +1093,7 @@
               "text": "Zmieniono koszta PU z 160/280/370 na 150/270/420",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -1244,7 +1244,7 @@
               "text": "Zmieniono koszta PU z 180/280/380 na 140/260/430",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -1258,7 +1258,7 @@
                   "text": "Zdolność do otoczenia całego ciała błyskawicami",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1387,7 +1387,7 @@
               "text": "Zmieniono koszta PU z 170/280/380 na 140/280/430",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -1401,7 +1401,7 @@
                   "text": "Możliwość manipulowania pobliskiego terenu po przez tworzenie wzniesien i dolin w celach defensywnych",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1431,7 +1431,7 @@
                   "text": "Możliwość pokrycia ramion piaskiem w celu uniknięcia krytycznych obrażeń",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1522,7 +1522,7 @@
               "text": "Zmieniono koszta PU z 160/260/380 na 150/240/410",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -1536,7 +1536,7 @@
                   "text": "Możliwość stworzenia ogromnej tarczy wykorzystując papier z otoczenia maga",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1566,7 +1566,7 @@
                   "text": "Możliwość pokrycia maksymalnie dwóch kończyn papierem",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1604,7 +1604,7 @@
                   "text": "Możliwość zamiany całego ciała w papier, który chroni przed krytycznymi obrażeniami",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1657,7 +1657,7 @@
               "text": "Zmieniono koszta PU z 150/270/380 na 150/270/410",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -1671,7 +1671,7 @@
                   "text": "Możliwość przyspieszenia wzrostu trawy dookoła maga",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1709,7 +1709,7 @@
                   "text": "Zdolność do manipulowania większymi krzewami oraz małymi drzewami w celu zatrzymania na dłużej przeciwników",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1747,7 +1747,7 @@
                   "text": "Zdolność do pokrycia drewnem całego ciała, tworząc tym samym bardzo wytrzymają zbroję",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1800,7 +1800,7 @@
               "text": "Zmieniono koszta PU z 180/280/390 na 150/270/420",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -1814,7 +1814,7 @@
                   "text": "Możliwość manipulowania cieniem i przekształcenia go w niewielką tarczę",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1890,7 +1890,7 @@
                   "text": "Możliwość kontrolowania ruchów innej osoby",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1898,7 +1898,7 @@
                   "text": "Zdolność do błyskawicznego przemieszczania się między różnymi obiektami, które rzucają cień",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -1935,7 +1935,7 @@
               "text": "Zmieniono koszta PU z 180/270/380 na 160/280/420",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -2078,7 +2078,7 @@
               "text": "Zmieniono koszta PU z 180/280/390 na 140/270/410",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -2092,7 +2092,7 @@
                   "text": "Zmieniono koszty transferu duszy ze zwierzęcia i kontroli co turę z 10.000/5.000 na 5.000/2.000",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -2168,7 +2168,7 @@
                   "text": "Zmieniono koszty transferu duszy z ciała maga i kontroli co turę z 20.000/15.000 na 15.000/8.000",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -2221,7 +2221,7 @@
               "text": "Zmieniono koszta PU z 190/280/390 na 140/270/410",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -2327,7 +2327,7 @@
                   "text": "Możliwość tworzenia drewnianych elementów uzbrojenia, które można zarówno aplikować na ciało maga jak i sojuszników",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -2335,7 +2335,7 @@
                   "text": "Możliwość stworzenia drewnianej, ale bardzo wytrzymałej zbroi pokrywającej całe ciało",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -2380,7 +2380,7 @@
               "text": "Zmieniono koszta PU z 200/300/400 na 100/200/350",
               "badge": {
                 "type": "UPDATE",
-                "text": "Aktualizacja"
+                "text": "Zaktualizowano"
               }
             }
           ],
@@ -2394,7 +2394,7 @@
                   "text": "Zmieniono koszt energii magicznej do przywołania zwykłego przedmiotu z 10.000 na 5.000",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 }
               ]
@@ -2408,7 +2408,7 @@
                   "text": "Zmieniono koszt energii magicznej do przywołania zwykłego przedmiotu z 5.000 na 3.000",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -2416,7 +2416,7 @@
                   "text": "Koszt przyzwania magicznego przedmiotu jest teraz zależny od samego przedmiotu",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 }
               ]
@@ -2430,7 +2430,7 @@
                   "text": "Koszt przyzwania magicznego przedmiotu jest teraz zależny od samego przedmiotu",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {
@@ -2438,7 +2438,7 @@
                   "text": "Koszt podmiany artefaktu zależny jest od samego przedmiotu",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 }
               ]
@@ -2452,7 +2452,7 @@
                   "text": "Uwzględniono jakie dokładnie przedmioty mag może przechowywać w swoim specjalnym wymiarze",
                   "badge": {
                     "type": "UPDATE",
-                    "text": "Aktualizacja"
+                    "text": "Zaktualizowano"
                   }
                 },
                 {

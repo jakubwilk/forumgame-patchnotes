@@ -19,6 +19,7 @@ const useStyles = createStyles((theme) => ({
 
 interface IProps {
   title: string
+  id?: string
   children: ReactNode
   image?: string
   url?: string
@@ -26,11 +27,11 @@ interface IProps {
   isSection?: boolean
 }
 
-function Section({ title, children, image, url, alt, isSection }: IProps) {
+function Section({ title, id, children, image, url, alt, isSection }: IProps) {
   const { classes } = useStyles()
 
   return (
-    <section className={clsx('mb-16 px-4 xl:px-0')}>
+    <section {...(id && { id })} className={clsx('mb-16 px-4 xl:px-0')}>
       <header className={clsx('mb-4', 'flex items-center')}>
         {isSection ? (
           <div className={clsx('w-full', 'flex flex-col items-center justify-center sm:justify-start sm:flex-row')}>

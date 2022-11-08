@@ -40,37 +40,39 @@ function TutorialsList() {
   }, [])
 
   return isLoading ? null : (
-    <Section title={'Poradniki'}>
-      {data.map((item) => (
-        <div key={item.id}>
-          <header className={clsx('mb-4', 'flex items-center')}>
-            <Title order={3} className={clsx(classes.title, 'font-normal', 'mr-2')}>
-              {item.title}
-            </Title>
-            {item.link && (
-              <Tooltip label={'Kliknij by przejść do wątku'}>
-                <Anchor href={item.link} className={classes.link}>
-                  <IconExternalLink size={'18'} />
-                </Anchor>
-              </Tooltip>
-            )}
-          </header>
-          <section className={clsx('mb-4 md:mb-8 p-4', classes.section)}>
-            <List>
-              {item.changes.map((change) => (
-                <List.Item key={change.id} className={clsx('flex items-start', classes.listItem)}>
-                  <IconArrowNarrowRight size={'16'} className={clsx('mr-2', 'inline-block', classes.listArrow)} />
-                  {change.text}
-                  <Badge color={setBadgeColor(change.badge.type)} size={'sm'} variant={'filled'} className={'ml-2'}>
-                    {change.badge.text}
-                  </Badge>
-                </List.Item>
-              ))}
-            </List>
-          </section>
-        </div>
-      ))}
-    </Section>
+    <div className={'container mx-auto max-w-5xl'}>
+      <Section id={'tutorialList'} title={'Poradniki'}>
+        {data.map((item) => (
+          <div key={item.id}>
+            <header className={clsx('mb-4', 'flex items-center')}>
+              <Title order={3} className={clsx(classes.title, 'font-normal', 'mr-2')}>
+                {item.title}
+              </Title>
+              {item.link && (
+                <Tooltip label={'Kliknij by przejść do wątku'}>
+                  <Anchor href={item.link} className={classes.link}>
+                    <IconExternalLink size={'18'} />
+                  </Anchor>
+                </Tooltip>
+              )}
+            </header>
+            <section className={clsx('mb-4 md:mb-8 p-4', classes.section)}>
+              <List>
+                {item.changes.map((change) => (
+                  <List.Item key={change.id} className={clsx('flex items-start', classes.listItem)}>
+                    <IconArrowNarrowRight size={'16'} className={clsx('mr-2', 'inline-block', classes.listArrow)} />
+                    {change.text}
+                    <Badge color={setBadgeColor(change.badge.type)} size={'sm'} variant={'filled'} className={'ml-2'}>
+                      {change.badge.text}
+                    </Badge>
+                  </List.Item>
+                ))}
+              </List>
+            </section>
+          </div>
+        ))}
+      </Section>
+    </div>
   )
 }
 

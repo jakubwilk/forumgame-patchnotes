@@ -74,7 +74,7 @@ function MagicList() {
       <div className={'container mx-auto max-w-5xl'}>
         {!isLoading && (
           <Fragment>
-            <Section title={data?.main.name as string}>
+            <Section id={'magicList'} title={data?.main.name as string}>
               <section className={clsx('mb-4 md:mb-8 p-4', classes.section)}>
                 <List>
                   {data?.main.changes.map((change) => (

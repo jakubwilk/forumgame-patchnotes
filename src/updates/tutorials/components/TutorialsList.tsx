@@ -1,9 +1,8 @@
-import { useEffect } from 'react'
 import { Section, setBadgeColor } from './../../../updates/common'
-import { useTutorialsQuery } from '../hooks'
 import { createStyles, Badge, Anchor, List, Title, Tooltip } from '@mantine/core'
 import clsx from 'clsx'
 import { IconArrowNarrowRight, IconExternalLink } from '@tabler/icons'
+import { TUTORIALS } from '../../../data'
 
 const useStyles = createStyles((theme) => ({
   title: {
@@ -32,17 +31,11 @@ const useStyles = createStyles((theme) => ({
 
 function TutorialsList() {
   const { classes } = useStyles()
-  const { isLoading, data, getTutorialsList } = useTutorialsQuery()
 
-  useEffect(() => {
-    getTutorialsList()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
-
-  return isLoading ? null : (
+  return (
     <div className={'container mx-auto max-w-5xl'}>
       <Section id={'tutorialList'} title={'Poradniki'}>
-        {data.map((item) => (
+        {TUTORIALS.tutorials.map((item) => (
           <div key={item.id}>
             <header className={clsx('mb-4', 'flex items-center')}>
               <Title order={3} className={clsx(classes.title, 'font-normal', 'mr-2')}>

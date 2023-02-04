@@ -1,4 +1,4 @@
-import { TutorialBadgesEnum } from '../../tutorials/models'
+import { TutorialBadgesEnum } from '../../../data'
 
 function setBadgeColor(type: TutorialBadgesEnum): string {
   switch (type) {

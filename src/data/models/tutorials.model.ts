@@ -25,6 +25,6 @@ export interface ITutorials {
   changes: ITutorialChange[]
 }
 
-export interface ITutorialsResponse {
+export interface ITutorialsDefinition {
   tutorials: ITutorials[]
 }

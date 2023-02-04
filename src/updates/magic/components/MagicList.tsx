@@ -1,10 +1,10 @@
-import { Fragment, useEffect } from 'react'
+import { Fragment } from 'react'
 import clsx from 'clsx'
 import { Badge, createStyles, List, Text, Title } from '@mantine/core'
-import { useBasicMagicQuery } from '../hooks'
 import { Section } from '../../common'
 import { IconArrowNarrowRight } from '@tabler/icons'
 import { setBadgeColor } from '../utils'
+import { STANDARD_MAGIC } from '../../../data'
 
 const useStyles = createStyles((theme) => ({
   header: {
@@ -50,12 +50,6 @@ const useStyles = createStyles((theme) => ({
 
 function MagicList() {
   const { classes } = useStyles()
-  const { data, isLoading, getBasicMagicList } = useBasicMagicQuery()
-
-  useEffect(() => {
-    getBasicMagicList()
-    // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [])
 
   return (
     <Fragment>
@@ -72,29 +66,43 @@ function MagicList() {
         </header>
       </div>
       <div className={'container mx-auto max-w-5xl'}>
-        {!isLoading && (
-          <Fragment>
-            <Section id={'magicList'} title={data?.main.name as string}>
-              <section className={clsx('mb-4 md:mb-8 p-4', classes.section)}>
-                <List>
-                  {data?.main.changes.map((change) => (
-                    <List.Item key={change.id} className={clsx('flex items-start', classes.listItem)}>
-                      <IconArrowNarrowRight size={'16'} className={clsx('mr-2', 'inline-block', classes.listArrow)} />
-                      {change.text}
-                      <Badge color={setBadgeColor(change.badge.type)} size={'sm'} variant={'filled'} className={'ml-2'}>
-                        {change.badge.text}
-                      </Badge>
-                    </List.Item>
-                  ))}
-                </List>
-              </section>
-            </Section>
-            {data?.magic.map((magic) => (
-              <Section key={magic.id} title={magic.name} image={magic.imageUrl} url={magic.pageUrl} alt={magic.alt} isSection>
-                <Text className={clsx(classes.subTitle, 'mb-2', 'uppercase tracking-wider', 'font-bold')}>{'Zmiany ogólne'}</Text>
+        <Section id={'magicList'} title={STANDARD_MAGIC.data.main.name as string}>
+          <section className={clsx('mb-4 md:mb-8 p-4', classes.section)}>
+            <List>
+              {STANDARD_MAGIC.data.main.changes.map((change) => (
+                <List.Item key={change.id} className={clsx('flex items-start', classes.listItem)}>
+                  <IconArrowNarrowRight size={'16'} className={clsx('mr-2', 'inline-block', classes.listArrow)} />
+                  {change.text}
+                  <Badge color={setBadgeColor(change.badge.type)} size={'sm'} variant={'filled'} className={'ml-2'}>
+                    {change.badge.text}
+                  </Badge>
+                </List.Item>
+              ))}
+            </List>
+          </section>
+        </Section>
+        {STANDARD_MAGIC.data.magic.map((magic) => (
+          <Section key={magic.id} title={magic.name} image={magic.imageUrl} url={magic.pageUrl} alt={magic.alt} isSection>
+            <Text className={clsx(classes.subTitle, 'mb-2', 'uppercase tracking-wider', 'font-bold')}>{'Zmiany ogólne'}</Text>
+            <section className={clsx('mb-4 md:mb-8 p-4', classes.section)}>
+              <List>
+                {magic.changes.main.map((change) => (
+                  <List.Item key={change.id} className={clsx('flex items-start', classes.listItem)}>
+                    <IconArrowNarrowRight size={'16'} className={clsx('mr-2', 'inline-block', classes.listArrow)} />
+                    {change.text}
+                    <Badge color={setBadgeColor(change.badge.type)} size={'sm'} variant={'filled'} className={'ml-2'}>
+                      {change.badge.text}
+                    </Badge>
+                  </List.Item>
+                ))}
+              </List>
+            </section>
+            {magic.changes.levels.map((level) => (
+              <div key={level.id}>
+                <Text className={clsx(classes.subTitle, 'mb-2', 'uppercase tracking-wider', 'font-bold')}>{level.text}</Text>
                 <section className={clsx('mb-4 md:mb-8 p-4', classes.section)}>
                   <List>
-                    {magic.changes.main.map((change) => (
+                    {level.changes.map((change) => (
                       <List.Item key={change.id} className={clsx('flex items-start', classes.listItem)}>
                         <IconArrowNarrowRight size={'16'} className={clsx('mr-2', 'inline-block', classes.listArrow)} />
                         {change.text}
@@ -105,28 +113,10 @@ function MagicList() {
                     ))}
                   </List>
                 </section>
-                {magic.changes.levels.map((level) => (
-                  <div key={level.id}>
-                    <Text className={clsx(classes.subTitle, 'mb-2', 'uppercase tracking-wider', 'font-bold')}>{level.text}</Text>
-                    <section className={clsx('mb-4 md:mb-8 p-4', classes.section)}>
-                      <List>
-                        {level.changes.map((change) => (
-                          <List.Item key={change.id} className={clsx('flex items-start', classes.listItem)}>
-                            <IconArrowNarrowRight size={'16'} className={clsx('mr-2', 'inline-block', classes.listArrow)} />
-                            {change.text}
-                            <Badge color={setBadgeColor(change.badge.type)} size={'sm'} variant={'filled'} className={'ml-2'}>
-                              {change.badge.text}
-                            </Badge>
-                          </List.Item>
-                        ))}
-                      </List>
-                    </section>
-                  </div>
-                ))}
-              </Section>
+              </div>
             ))}
-          </Fragment>
-        )}
+          </Section>
+        ))}
       </div>
     </Fragment>
   )

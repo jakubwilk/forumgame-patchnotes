@@ -63,6 +63,6 @@ export interface IMagic {
   magic: IMagicList[]
 }
 
-export interface IMagicResponse {
+export interface IMagicDefinition {
   data: IMagic
 }

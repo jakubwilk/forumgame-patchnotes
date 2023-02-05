@@ -1,8 +1,8 @@
-import { Section, setBadgeColor } from './../../../updates/common'
 import { createStyles, Badge, Anchor, List, Title, Tooltip } from '@mantine/core'
 import clsx from 'clsx'
 import { IconArrowNarrowRight, IconExternalLink } from '@tabler/icons'
-import { TUTORIALS } from '../../../data'
+import { Section, setBadgeColor } from '@app/updates/common'
+import { TUTORIALS } from '@app/data'
 
 const useStyles = createStyles((theme) => ({
   title: {

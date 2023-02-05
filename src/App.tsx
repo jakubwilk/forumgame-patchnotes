@@ -1,8 +1,8 @@
 import { MantineProvider } from '@mantine/core'
-import { Greetings } from './greetings/components'
-import { Header } from './header/components'
-import { TutorialsList } from './updates/tutorials/components'
-import { MagicList } from './updates/magic/components'
+import { Header } from '@app/header'
+import { Greetings } from '@app/greetings'
+import { TutorialsList } from '@app/updates/tutorials'
+import { MagicList } from '@app/updates/magic'
 
 function App() {
   return (

@@ -1,4 +1,4 @@
-import { MagicBadgesEnum } from '../../../data/models'
+import { MagicBadgesEnum } from '@app/data'
 
 function setBadgeColor(type: MagicBadgesEnum): string {
   switch (type) {

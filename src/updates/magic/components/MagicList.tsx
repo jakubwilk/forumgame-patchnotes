@@ -1,10 +1,10 @@
 import { Fragment } from 'react'
 import clsx from 'clsx'
 import { Badge, createStyles, List, Text, Title } from '@mantine/core'
-import { Section } from '../../common'
 import { IconArrowNarrowRight } from '@tabler/icons'
+import { Section } from '@app/updates/common'
+import { STANDARD_MAGIC } from '@app/data'
 import { setBadgeColor } from '../utils'
-import { STANDARD_MAGIC } from '../../../data'
 
 const useStyles = createStyles((theme) => ({
   header: {

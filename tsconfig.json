@@ -1,5 +1,14 @@
 {
   "compilerOptions": {
+    "baseUrl": "./",
+    "paths": {
+      "@app/data": ["./src/data/index.ts"],
+      "@app/greetings": ["./src/greetings/index.ts"],
+      "@app/header": ["./src/header/index.ts"],
+      "@app/updates/common": ["./src/updates/common/index.ts"],
+      "@app/updates/magic": ["./src/updates/magic/index.ts"],
+      "@app/updates/tutorials": ["./src/updates/tutorials/index.ts"]
+    },
     "target": "es5",
     "lib": ["dom", "dom.iterable", "esnext"],
     "allowJs": true,

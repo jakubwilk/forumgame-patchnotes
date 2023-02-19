@@ -48,12 +48,16 @@ const useStyles = createStyles((theme) => ({
   },
 }))
 
-function MagicList() {
+interface IProps {
+  id: string
+}
+
+function MagicList({ id }: IProps) {
   const { classes } = useStyles()
 
   return (
     <Fragment>
-      <div className={'container mx-auto w-full max-w-full'}>
+      <div className={'container mx-auto w-full max-w-full'} id={id}>
         <header className={clsx(classes.header, 'flex justify-center flex-col', 'text-center', 'py-8 px-4 mb-16')}>
           <Title order={2} className={clsx(classes.title, 'font-normal text-4xl', 'mb-4')}>
             {'Magie zwykłe'}

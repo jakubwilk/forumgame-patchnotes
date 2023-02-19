@@ -33,7 +33,7 @@ function TutorialsList() {
   const { classes } = useStyles()
 
   return (
-    <div className={'container mx-auto max-w-5xl'}>
+    <div className={'container mx-auto max-w-5xl'} id={'tutorials'}>
       <Section id={'tutorialList'} title={'Poradniki'}>
         {TUTORIALS.tutorials.map((item) => (
           <div key={item.id}>

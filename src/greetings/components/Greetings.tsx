@@ -7,7 +7,7 @@ interface IProps {
 
 function Greetings({ text, authors }: IProps) {
   return (
-    <section className={'pt-[6rem] pb-[4rem] px-4 md:px-16'}>
+    <section className={'pt-[6rem] pb-[4rem] px-4 md:px-16'} id={'home'}>
       <Paper p={'xl'}>
         <Blockquote cite={authors}>{text}</Blockquote>
       </Paper>

@@ -3,7 +3,6 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@craco/craco": "^7.1.0",
     "@emotion/react": "^11.11.3",
     "@mantine/core": "^7.3.2",
     "@mantine/hooks": "^7.3.2",
@@ -15,19 +14,20 @@
     "@types/node": "^16.7.13",
     "@types/react": "^18.0.0",
     "@types/react-dom": "^18.0.0",
+    "@vitejs/plugin-react": "^4.2.1",
     "clsx": "^2.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
     "tabler-icons-react": "^1.56.0",
     "typescript": "^4.4.2",
+    "vite": "^5.0.10",
+    "vite-tsconfig-paths": "^4.2.2",
     "web-vitals": "^2.1.0"
   },
   "scripts": {
-    "start": "craco start",
-    "build": "craco build",
-    "test": "craco test",
-    "eject": "craco eject",
+    "start": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
     "prettier": "prettier --write \"./**/*.{js,jsx,ts,tsx,scss,json}\""
   },
   "browserslist": {
@@ -44,7 +44,6 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.16",
-    "craco-alias": "^3.0.1",
     "eslint": "^8.56.0",
     "eslint-config-prettier": "^9.1.0",
     "eslint-config-react-app": "^7.0.1",

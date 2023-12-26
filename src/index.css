@@ -5,7 +5,13 @@
   @tailwind base;
 }
 
+:root {
+  --mgw-background-color: #140619;
+}
+
 body {
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('background.jpg'); */
+  background-color: var(--mgw-background-color);
+  /* background-repeat: no-repeat; */
+  /* background-position: top center; */
 }

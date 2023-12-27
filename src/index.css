@@ -6,12 +6,16 @@
 }
 
 :root {
-  --mgw-background-color: #140619;
+  --mgw-fira-sans-font: 'Fira Sans', sans-serif;
+  --mgw-poppins-font: 'Poppins', sans-serif;
+  --mgw-light-font-weight: 300;
+  --mgw-regular-font-weight: 400;
+  --mgw-bold-font-weight: 600;
+  --mgw-black-font-weight: 900;
+  --mgw-purple-light-color: #6d5c76;
+  /* --mgw-background-color: #140619; */
 }
 
 body {
-  /* background-image: url('background.jpg'); */
-  background-color: var(--mgw-background-color);
-  /* background-repeat: no-repeat; */
-  /* background-position: top center; */
+  background-color: var(--mantine-color-dark-8);
 }

@@ -1,6 +1,6 @@
 import { createBrowserRouter } from 'react-router-dom'
-import App from 'src/app/App'
 import { Layout } from 'src/core/layouts/Layout'
+import { PatchNotesPage } from 'src/core/pages/PatchNotesPage'
 
 export const ROUTER = createBrowserRouter([
   {
@@ -8,7 +8,11 @@ export const ROUTER = createBrowserRouter([
     children: [
       {
         path: '/',
-        element: <App />,
+        element: <PatchNotesPage />,
+      },
+      {
+        path: '/2-0-1',
+        element: <PatchNotesPage version={'2.0.1'} />,
       },
     ],
   },

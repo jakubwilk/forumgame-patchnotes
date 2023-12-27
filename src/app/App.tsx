@@ -1,17 +1,22 @@
-function App() {
+import { RouterProvider } from 'react-router-dom'
+import { ROUTER } from 'src/config/router.config'
+import { createTheme, MantineProvider } from '@mantine/core'
+import { QueryClient, QueryClientProvider } from 'react-query'
+import { ConfigProvier } from 'src/core/context/ConfigProvider'
+
+const theme = createTheme({
+  primaryColor: 'violet',
+})
+const queryClient = new QueryClient()
+
+export function App() {
   return (
-    <div className={'App'}>
-      <header className={'App-header'}>
-        <p>
-          {'Edit '}
-          <code>{'src/App.tsx'}</code> {'and save to reload.'}
-        </p>
-        <a className={'App-link'} href={'https://reactjs.org'} target={'_blank'} rel={'noopener noreferrer'}>
-          {'Learn React'}
-        </a>
-      </header>
-    </div>
+    <QueryClientProvider client={queryClient}>
+      <MantineProvider defaultColorScheme={'dark'} theme={theme}>
+        <ConfigProvier>
+          <RouterProvider router={ROUTER} />
+        </ConfigProvier>
+      </MantineProvider>
+    </QueryClientProvider>
   )
 }
-
-export default App

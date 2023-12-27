@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import reportWebVitals from './reportWebVitals'
-import { AppWrapper } from './app/AppWrapper'
+import { App } from './app/App'
 
 import '@mantine/core/styles.css'
 import './index.css'
@@ -9,7 +9,7 @@ import './index.css'
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
 root.render(
   <React.StrictMode>
-    <AppWrapper />
+    <App />
   </React.StrictMode>,
 )
 

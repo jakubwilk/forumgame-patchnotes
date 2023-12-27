@@ -1,0 +1,27 @@
+.title {
+  font-size: 4rem !important;
+  text-transform: uppercase;
+  font-family: var(--mgw-fira-sans-font);
+  font-weight: var(--mgw-black-font-weight) !important;
+  letter-spacing: 5px;
+  color: var(--mgw-purple-light-color) !important;
+}
+
+.description {
+  font-size: 1.25rem !important;
+  font-family: var(--mgw-poppins-font);
+  font-weight: var(--mgw-light-font-weight) !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.link {
+  color: var(--mgw-purple-light-color);
+  text-transform: uppercase;
+}
+
+.link:hover,
+.link:focus {
+  outline: none;
+  text-decoration: underline;
+}

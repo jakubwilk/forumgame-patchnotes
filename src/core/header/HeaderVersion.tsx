@@ -3,14 +3,19 @@ import { clsx } from 'clsx'
 
 import styles from 'src/core/styles/header.module.css'
 import { PatchVersionSelect } from './PatchVersionSelect'
+import { useCallback, useState } from 'react'
 
 interface IProps {
-  currentVersion: string
-  handleSelectVersion: (val: string) => void
   isConfigLoading: boolean
 }
 
-export function HeaderVersion({ currentVersion, handleSelectVersion, isConfigLoading }: IProps) {
+export function HeaderVersion({ isConfigLoading }: IProps) {
+  const [currentVersion, setCurrentVersion] = useState<string>('')
+
+  const handleSelectVersion = useCallback((value: string) => {
+    setCurrentVersion(value)
+  }, [])
+
   return (
     <section className={clsx('py-12', styles.headerVersion)}>
       <div className={'container max-w-[1000px] mx-auto'}>

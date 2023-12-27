@@ -1,9 +1,7 @@
-import { CURRENT_PATCH_VERSION } from '../utils/api.utils'
-
 interface IProps {
-  version?: string
+  version: string
 }
 
-export function PatchNotesPage({ version = CURRENT_PATCH_VERSION }: IProps) {
+export function PatchNotesPage({ version }: IProps) {
   return <p>{`Aktualizacja do wersji ${version}`}</p>
 }

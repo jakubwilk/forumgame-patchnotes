@@ -1,9 +1,9 @@
 import { Select } from '@mantine/core'
-import { useCallback, useMemo, useState } from 'react'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useConfigContext } from '../hooks/useConfigContext'
-import { CURRENT_PATCH_VERSION } from '../utils/api.utils'
 import styles from '../styles/patch-version-select.module.css'
-import { useNavigate } from 'react-router-dom'
+import { useLocation, useNavigate } from 'react-router-dom'
+import { isEqual } from 'lodash'
 
 interface IProps {
   handleSelectVersion: (val: string) => void
@@ -13,38 +13,52 @@ interface IProps {
 export function PatchVersionSelect({ handleSelectVersion, isConfigLoading }: IProps) {
   const navigate = useNavigate()
   const { config } = useConfigContext()
-  const [checkedValue, setCheckedValue] = useState<string>(CURRENT_PATCH_VERSION)
+  const { pathname } = useLocation()
+
+  const currentVersion = useMemo(() => config?.update.current as string, [config])
+
+  const [checkedValue, setCheckedValue] = useState<string>('')
   const data = useMemo(() => {
     if (config) {
       return config?.update.versions
     }
 
-    return ['Wersja']
+    return ['-']
   }, [config])
 
   const navigateToPage = useCallback(
     (version: string) => {
       const versionPage = version.replaceAll('.', '-')
 
-      if (version === CURRENT_PATCH_VERSION) {
+      if (version === currentVersion) {
         navigate('/')
       } else {
         navigate(versionPage)
       }
     },
-    [navigate],
+    [navigate, currentVersion],
   )
 
   const handleChange = useCallback(
     (value: string | null) => {
-      const version = value || CURRENT_PATCH_VERSION
+      const version = (value || checkedValue) as string
 
-      setCheckedValue(value || '')
+      setCheckedValue(value as string)
       handleSelectVersion(version)
       navigateToPage(version)
     },
-    [handleSelectVersion, navigateToPage],
+    [handleSelectVersion, navigateToPage, checkedValue],
   )
+
+  useEffect(() => {
+    const versionFromPath = pathname.replace('/', '').replaceAll('-', '.')
+    const isFirstPage = isEqual(versionFromPath, '')
+    const value = isFirstPage ? currentVersion : versionFromPath
+
+    setCheckedValue(value)
+    handleSelectVersion(value)
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [config, pathname, currentVersion])
 
   return (
     <Select

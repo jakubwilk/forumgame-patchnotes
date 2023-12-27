@@ -1,8 +1,7 @@
-import { RouterProvider } from 'react-router-dom'
-import { ROUTER } from 'src/config/router.config'
 import { createTheme, MantineProvider } from '@mantine/core'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { ConfigProvier } from 'src/core/context/ConfigProvider'
+import { AppContent } from './AppContent'
 
 const theme = createTheme({
   primaryColor: 'violet',
@@ -14,7 +13,7 @@ export function App() {
     <QueryClientProvider client={queryClient}>
       <MantineProvider defaultColorScheme={'dark'} theme={theme}>
         <ConfigProvier>
-          <RouterProvider router={ROUTER} />
+          <AppContent />
         </ConfigProvier>
       </MantineProvider>
     </QueryClientProvider>

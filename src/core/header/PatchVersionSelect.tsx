@@ -28,6 +28,13 @@ export function PatchVersionSelect({ handleSelectVersion, isConfigLoading }: IPr
   )
 
   return (
-    <Select value={checkedValue} label={'Wybierz wersję aktualizacji'} data={data} onChange={handleChange} disabled={isConfigLoading} />
+    <Select
+      value={checkedValue}
+      label={'Wybierz wersję aktualizacji'}
+      data={data}
+      onChange={handleChange}
+      disabled={isConfigLoading}
+      allowDeselect={false}
+    />
   )
 }

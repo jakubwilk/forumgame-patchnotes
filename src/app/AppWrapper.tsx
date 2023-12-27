@@ -4,7 +4,9 @@ import { createTheme, MantineProvider } from '@mantine/core'
 import { QueryClient, QueryClientProvider } from 'react-query'
 import { ConfigProvier } from 'src/core/context/ConfigProvider'
 
-const theme = createTheme({})
+const theme = createTheme({
+  primaryColor: 'violet',
+})
 const queryClient = new QueryClient()
 
 export function AppWrapper() {

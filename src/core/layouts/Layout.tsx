@@ -21,8 +21,8 @@ export function Layout() {
 
   return (
     <Fragment>
-      <Header handleSelectVersion={handleSelectVersion} isConfigLoading={isLoading} />
-      <HeaderVersion currentVersion={selectedVersion} />
+      <Header />
+      <HeaderVersion currentVersion={selectedVersion} handleSelectVersion={handleSelectVersion} isConfigLoading={isLoading} />
       <Outlet />
     </Fragment>
   )

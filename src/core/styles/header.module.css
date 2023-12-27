@@ -1,0 +1,20 @@
+.headerVersion {
+  background-color: var(--mantine-color-dark-9);
+}
+
+.title {
+  font-size: 1.25rem !important;
+  font-family: var(--mgw-poppins-font);
+  font-weight: var(--mgw-light-font-weight) !important;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: var(--mgw-purple-light-color) !important;
+}
+
+.version {
+  font-size: 4rem !important;
+  font-family: var(--mgw-fira-sans-font);
+  font-weight: var(--mgw-black-font-weight) !important;
+  letter-spacing: 5px;
+  color: var(--mgw-purple-light-color) !important;
+}

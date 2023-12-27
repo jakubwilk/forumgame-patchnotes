@@ -1,3 +1,3 @@
 export function Logo() {
-  return <p>{'Logo'}</p>
+  return <p>{'Mage Guild Wars'}</p>
 }

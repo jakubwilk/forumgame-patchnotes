@@ -1,1 +1,2 @@
 export const GET_CONFIG_KEY = 'GET_CONFIG'
+export const GET_PATCH_NOTES_KEY = 'GET_PATCH_NOTES_'

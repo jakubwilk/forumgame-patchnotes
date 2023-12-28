@@ -1,6 +1,7 @@
 export interface IConfigUpdate {
   current: string
   versions: Array<string>
+  files: Array<string>
 }
 
 export interface IConfigRouter {

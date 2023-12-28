@@ -31,5 +31,5 @@ export function NodeCategory({ data }: IProps) {
     [],
   )
 
-  return data.map(({ categoryKey, name, description, nodes }: IPatchNode) => renderCategory(categoryKey, name, nodes, description))
+  return <>{data.map(({ categoryKey, name, description, nodes }: IPatchNode) => renderCategory(categoryKey, name, nodes, description))}</>
 }

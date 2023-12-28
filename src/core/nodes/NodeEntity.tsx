@@ -65,7 +65,11 @@ export function NodeEntity({ data }: IProps) {
     [hasProps],
   )
 
-  return data.map(({ categoryKey, name, description, link, label, imageUri, nodes }: IPatchNodes) =>
-    renderEntity(categoryKey, name, description, link, label, imageUri, nodes),
+  return (
+    <>
+      {data.map(({ categoryKey, name, description, link, label, imageUri, nodes }: IPatchNodes) =>
+        renderEntity(categoryKey, name, description, link, label, imageUri, nodes),
+      )}
+    </>
   )
 }

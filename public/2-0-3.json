@@ -1,7 +1,7 @@
 {
     "patch": [
         {
-            "categoryKey": "CATEGORY2",
+            "categoryKey": "CATEGORY",
             "name": "Lorem ipsum",
             "nodes": [
                 {
@@ -29,10 +29,12 @@
         {
             "categoryKey": "CATEGORY",
             "name": "Ipsum Lorem",
+            "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
             "nodes": [
                 {
                     "categoryKey": "ENTITY",
                     "name": "Ipsum Lorem 1",
+                    "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
                     "link": "https://www.google.com",
                     "imageUri": "http://imgur.com/PWyRmYs.png",
                     "nodes": [

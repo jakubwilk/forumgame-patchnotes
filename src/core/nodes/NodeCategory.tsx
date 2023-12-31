@@ -4,6 +4,8 @@ import { isEqual, isEmpty, isNil } from 'lodash'
 import { UnsupportedNode } from './UnsupportedNode'
 import { Title, Text } from '@mantine/core'
 import { NodeEntity } from './NodeEntity'
+import styles from '../styles/nodes.module.css'
+import clsx from 'clsx'
 
 interface IProps {
   data: Array<IPatchNode>
@@ -17,9 +19,11 @@ export function NodeCategory({ data }: IProps) {
       if (isEqual(categoryKey, IPatchNodeCategoryKeyEnum.CATEGORY)) {
         return (
           <article key={name} className={'mb-8'}>
-            <header className={'p-4'}>
-              <Title order={2}>{name}</Title>
-              {hasDescription && <Text className={'pt-2'}>{description}</Text>}
+            <header className={clsx('p-4', styles.categoryHeader)}>
+              <Title order={2} className={styles.entityTitle}>
+                {name}
+              </Title>
+              {hasDescription && <Text className={clsx('pt-2', styles.categoryDescription)}>{description}</Text>}
             </header>
             <NodeEntity data={nodes} />
           </article>

@@ -40,7 +40,7 @@ export function NodeItem({ data }: IProps) {
   )
 
   return (
-    <List withPadding>
+    <List className={'mt-2'} withPadding>
       {data.map(({ categoryKey, slug, description, link }, index) => renderItem(categoryKey, slug, description, index, link))}
     </List>
   )

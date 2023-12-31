@@ -1,0 +1,55 @@
+.categoryHeader {
+  background: var(--mgw-purple-light-color);
+  background: linear-gradient(to right, var(--mgw-purple-light-color), rgba(131, 51, 18, 0));
+  box-shadow: 0px 0px 2rem var(--mantine-color-dark-9);
+  border-left: 2px solid var(--mgw-purple-light-border-color);
+}
+
+.entityTitle {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: var(--mgw-bolder-font-weight) !important;
+  font-size: 1.35rem !important;
+  text-shadow: 0px 0px 5px var(--mantine-color-dark-9);
+  font-family: var(--mgw-merriweather-font) !important;
+}
+
+.entityTitle:first-letter {
+  font-size: 1.5rem !important;
+}
+
+.categoryDescription {
+  font-size: 0.85rem;
+  opacity: 0.95;
+  text-shadow: 0px 0px 5px var(--mantine-color-dark-9);
+}
+
+.entityContent {
+  box-shadow: 0px 0px 1.5rem var(--mantine-color-dark-9);
+  border-left: 2px solid var(--mantine-color-dark-6);
+}
+
+.entityImage {
+  width: auto;
+  height: 60px;
+}
+
+.itemTitle {
+  letter-spacing: 1px;
+  font-weight: var(--mgw-bolder-font-weight) !important;
+  font-size: 1.15rem !important;
+  text-shadow: 0px 0px 5px var(--mantine-color-dark-9);
+  font-family: var(--mgw-merriweather-font) !important;
+  color: white;
+}
+
+.itemDescription {
+  font-size: 0.95rem !important;
+  color: white !important;
+  opacity: 0.55;
+}
+
+.iconLink svg {
+  width: 16px;
+  height: 16px;
+}

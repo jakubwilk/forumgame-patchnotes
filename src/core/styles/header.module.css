@@ -13,8 +13,8 @@
 
 .version {
   font-size: 4rem !important;
-  font-family: var(--mgw-fira-sans-font);
-  font-weight: var(--mgw-black-font-weight) !important;
+  font-family: var(--mgw-merriweather-font);
+  font-weight: var(--mgw-bolder-font-weight) !important;
   letter-spacing: 5px;
   color: var(--mgw-purple-light-color) !important;
 }

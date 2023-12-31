@@ -5,6 +5,8 @@ import { UnsupportedNode } from './UnsupportedNode'
 import { Text, Title, Tooltip, Anchor, Badge } from '@mantine/core'
 import { IconExternalLink } from '@tabler/icons-react'
 import { NodeItem } from './NodeItem'
+import styles from '../styles/nodes.module.css'
+import clsx from 'clsx'
 
 interface IProps {
   data: Array<IPatchNodes>
@@ -31,32 +33,34 @@ export function NodeEntity({ data }: IProps) {
 
       if (isEqual(categoryKey, IPatchNodeCategoryKeyEnum.ENTITY)) {
         return (
-          <section key={name} className={'px-8 pb-4'}>
+          <div key={name} className={'px-8 pb-12 last:pb-8'}>
             <div className={'flex flex-col md:flex-row'}>
-              {hasImageUri && <img src={imageUri} alt={name} className={'mr-4'} />}
+              {hasImageUri && <img src={imageUri} alt={name} className={clsx('mr-4', styles.entityImage)} />}
               <div>
-                <div className={'flex items-center'}>
+                <div className={'flex flex-col'}>
                   {hasLabel && (
-                    <Badge color={isEqual(label, IPatchNodesLabelEnum.NEW) ? 'blue' : 'red'} radius={'sm'} size={'sm'} className={'mr-2'}>
+                    <Badge color={isEqual(label, IPatchNodesLabelEnum.NEW) ? 'blue' : 'red'} radius={'sm'} size={'sm'} className={'mb-2'}>
                       {isEqual(label, IPatchNodesLabelEnum.NEW) ? 'Nowe' : 'Usunięte'}
                     </Badge>
                   )}
-                  <Title order={3} className={'mr-2'}>
-                    {name}
-                  </Title>
-                  {hasLink && (
-                    <Tooltip label={'Kliknij żeby przejść do wątku'} position={'right'}>
-                      <Anchor href={link} target={'_blank'}>
-                        <IconExternalLink />
-                      </Anchor>
-                    </Tooltip>
-                  )}
+                  <div className={'flex items-center'}>
+                    <Title order={3} className={clsx('mr-2', styles.itemTitle)}>
+                      {name}
+                    </Title>
+                    {hasLink && (
+                      <Tooltip label={'Kliknij żeby przejść do wątku'} position={'right'}>
+                        <Anchor href={link} target={'_blank'} className={styles.iconLink}>
+                          <IconExternalLink />
+                        </Anchor>
+                      </Tooltip>
+                    )}
+                  </div>
                 </div>
-                {hasDescription && <Text>{description}</Text>}
+                {hasDescription && <Text className={styles.itemDescription}>{description}</Text>}
                 {hasNodes && <NodeItem data={nodes as Array<IPatchNodesItem>} />}
               </div>
             </div>
-          </section>
+          </div>
         )
       }
 
@@ -66,10 +70,10 @@ export function NodeEntity({ data }: IProps) {
   )
 
   return (
-    <>
+    <section className={clsx('pt-8', styles.entityContent)}>
       {data.map(({ categoryKey, name, description, link, label, imageUri, nodes }: IPatchNodes) =>
         renderEntity(categoryKey, name, description, link, label, imageUri, nodes),
       )}
-    </>
+    </section>
   )
 }

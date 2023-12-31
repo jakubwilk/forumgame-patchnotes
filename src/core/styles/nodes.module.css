@@ -53,3 +53,11 @@
   width: 16px;
   height: 16px;
 }
+
+.unsupportedNode {
+  background-color: var(--mantine-color-dark-9);
+}
+
+.unsupportedNodeText {
+  opacity: 0.8;
+}

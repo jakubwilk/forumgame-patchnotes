@@ -64,7 +64,7 @@ export function NodeEntity({ data }: IProps) {
         )
       }
 
-      return <UnsupportedNode key={name} isFullWidth={false} />
+      return <UnsupportedNode key={name} customClassName={'mx-8 mb-8 last:mb-0'} isFullWidth={false} />
     },
     [hasProps],
   )

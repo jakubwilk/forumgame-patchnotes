@@ -34,7 +34,7 @@ export function NodeItem({ data }: IProps) {
         )
       }
 
-      return <UnsupportedNode key={slug} isFullWidth={false} />
+      return <UnsupportedNode key={slug} customClassName={'my-4'} isFullWidth={false} />
     },
     [],
   )

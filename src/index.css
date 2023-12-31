@@ -6,13 +6,15 @@
 }
 
 :root {
-  --mgw-fira-sans-font: 'Fira Sans', sans-serif;
+  --mgw-merriweather-font: 'Merriweather', serif;
   --mgw-poppins-font: 'Poppins', sans-serif;
   --mgw-light-font-weight: 300;
   --mgw-regular-font-weight: 400;
   --mgw-bold-font-weight: 600;
+  --mgw-bolder-font-weight: 700;
   --mgw-black-font-weight: 900;
   --mgw-purple-light-color: #6d5c76;
+  --mgw-purple-light-border-color: #918199;
   /* --mgw-background-color: #140619; */
 }
 

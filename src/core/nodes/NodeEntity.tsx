@@ -35,7 +35,7 @@ export function NodeEntity({ data }: IProps) {
         return (
           <div key={name} className={'px-8 pb-12 last:pb-8'}>
             <div className={'flex flex-col md:flex-row'}>
-              {hasImageUri && <img src={imageUri} alt={name} className={clsx('mr-4', styles.entityImage)} />}
+              {hasImageUri && <img src={imageUri} alt={name} className={clsx('mr-4 mb-4', styles.entityImage)} />}
               <div>
                 <div className={'flex flex-col'}>
                   {hasLabel && (
@@ -44,7 +44,7 @@ export function NodeEntity({ data }: IProps) {
                     </Badge>
                   )}
                   <div className={'flex items-center'}>
-                    <Title order={3} className={clsx('mr-2', styles.itemTitle)}>
+                    <Title order={3} className={clsx('mr-2 mb-2', styles.itemTitle)}>
                       {name}
                     </Title>
                     {hasLink && (

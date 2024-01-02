@@ -43,14 +43,14 @@ export function NodeEntity({ data }: IProps) {
                       {isEqual(label, IPatchNodesLabelEnum.NEW) ? 'Nowe' : 'Usunięte'}
                     </Badge>
                   )}
-                  <div className={'flex items-center'}>
-                    <Title order={3} className={clsx('mr-2 mb-2', styles.itemTitle)}>
+                  <div className={'flex items-center mb-2'}>
+                    <Title order={3} className={clsx('mr-2', styles.itemTitle)}>
                       {name}
                     </Title>
                     {hasLink && (
                       <Tooltip label={'Kliknij żeby przejść do wątku'} position={'right'}>
                         <Anchor href={link} target={'_blank'} className={styles.iconLink}>
-                          <IconExternalLink />
+                          <IconExternalLink className={'duration-100'} />
                         </Anchor>
                       </Tooltip>
                     )}

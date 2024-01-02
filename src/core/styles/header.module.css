@@ -8,7 +8,7 @@
   font-weight: var(--mgw-light-font-weight) !important;
   text-transform: uppercase;
   letter-spacing: 2px;
-  color: var(--mgw-purple-light-color) !important;
+  color: var(--mantine-color-green-9) !important;
 }
 
 .version {
@@ -16,5 +16,5 @@
   font-family: var(--mgw-merriweather-font);
   font-weight: var(--mgw-bolder-font-weight) !important;
   letter-spacing: 5px;
-  color: var(--mgw-purple-light-color) !important;
+  color: var(--mantine-color-green-9) !important;
 }

@@ -27,7 +27,10 @@ export function PatchNotesPage({ version }: IProps) {
         {isConfigFile ? (
           <div className={'p-8'}>{isLoading ? <p>{'Ładowanie...'}</p> : <NodeCategory data={data?.patch as Array<IPatchNode>} />}</div>
         ) : (
-          <UnsupportedNode customText={'Wykryto brak pliku z aktualizacją. Skontaktuj się z administratorem serwisu.'} />
+          <UnsupportedNode
+            customText={'Wykryto brak pliku z aktualizacją. Skontaktuj się z administratorem serwisu.'}
+            customClassName={'mx-8'}
+          />
         )}
       </div>
     </main>

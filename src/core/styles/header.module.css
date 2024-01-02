@@ -18,3 +18,20 @@
   letter-spacing: 5px;
   color: var(--mantine-color-green-9) !important;
 }
+
+.headerLink {
+  color: var(--mantine-color-gray-5) !important;
+}
+
+.headerLink:hover,
+.headerLink:focus {
+  outline: none;
+  text-decoration: none;
+  color: var(--mantine-color-green-9) !important;
+}
+
+.headerLinkSvg {
+  width: 16px;
+  height: auto;
+  margin-top: 2px;
+}

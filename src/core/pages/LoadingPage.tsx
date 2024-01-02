@@ -1,8 +1,13 @@
 import { Loader } from '@mantine/core'
+import clsx from 'clsx'
 
-export function LoadingPage() {
+interface IProps {
+  isFullPage?: boolean
+}
+
+export function LoadingPage({ isFullPage = true }: IProps) {
   return (
-    <div className={'min-h-screen w-full flex items-center justify-center'}>
+    <div className={clsx('w-full flex items-center justify-center', isFullPage ? 'min-h-screen' : 'h-full my-24')}>
       <Loader size={70} />
     </div>
   )

@@ -20,6 +20,7 @@
 }
 
 .headerLink {
+  font-size: 0.85rem !important;
   color: var(--mantine-color-gray-5) !important;
 }
 
@@ -34,4 +35,17 @@
   width: 16px;
   height: auto;
   margin-top: 2px;
+}
+
+.logo {
+  color: var(--mantine-color-gray-6) !important;
+  text-decoration: none !important;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-weight: var(--mgw-bold-font-weight) !important;
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--mantine-color-green-7) !important;
 }

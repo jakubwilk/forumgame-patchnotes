@@ -1,27 +1,36 @@
+.page {
+  display: grid;
+  grid-template-rows: 1fr 80px;
+}
+
 .title {
   font-size: 4rem !important;
   text-transform: uppercase;
   font-family: var(--mgw-merriweather-font);
   font-weight: var(--mgw-bolder-font-weight) !important;
   letter-spacing: 5px;
-  color: var(--mgw-purple-light-color) !important;
+  color: var(--mantine-color-green-9) !important;
 }
 
 .description {
   font-size: 1.25rem !important;
   font-family: var(--mgw-poppins-font);
   font-weight: var(--mgw-light-font-weight) !important;
-  text-transform: uppercase;
-  letter-spacing: 2px;
 }
 
 .link {
-  color: var(--mgw-purple-light-color);
-  text-transform: uppercase;
+  color: var(--mantine-color-green-7);
+  text-decoration: none;
 }
 
 .link:hover,
 .link:focus {
   outline: none;
-  text-decoration: underline;
+  color: var(--mantine-color-green-4);
+}
+
+.linkSvg {
+  width: 16px;
+  height: auto;
+  margin-top: 2px;
 }

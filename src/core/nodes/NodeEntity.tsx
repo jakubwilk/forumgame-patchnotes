@@ -48,7 +48,7 @@ export function NodeEntity({ data }: IProps) {
                       {name}
                     </Title>
                     {hasLink && (
-                      <Tooltip label={'Kliknij żeby przejść do wątku'} position={'right'}>
+                      <Tooltip label={'Kliknij żeby przejść do wątku'} position={'right'} color={'gray'}>
                         <Anchor href={link} target={'_blank'} className={styles.iconLink}>
                           <IconExternalLink className={'duration-100'} />
                         </Anchor>

@@ -18,7 +18,8 @@
 }
 
 .categoryDescription {
-  font-size: 0.85rem;
+  font-size: 0.95rem !important;
+  color: var(--mantine-color-gray-3) !important;
   text-shadow: 0px 0px 5px var(--mantine-color-dark-6);
 }
 
@@ -55,7 +56,7 @@
 }
 
 .iconLink:hover svg {
-  color: var(--mantine-color-green-9);
+  color: var(--mantine-color-green-7);
 }
 
 .unsupportedNode {

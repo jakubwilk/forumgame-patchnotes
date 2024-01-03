@@ -1,0 +1,18 @@
+.footer {
+  height: 80px;
+}
+
+.footerText {
+  font-size: 0.85rem !important;
+}
+
+.footerLink {
+  color: var(--mantine-color-green-7) !important;
+  text-decoration: none !important;
+  font-size: 0.85rem !important;
+}
+
+.footerLink:hover,
+.footerLink:focus {
+  color: var(--mantine-color-green-4) !important;
+}

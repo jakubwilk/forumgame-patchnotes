@@ -30,7 +30,7 @@ export function NodeCategory({ data }: IProps) {
         )
       }
 
-      return <UnsupportedNode key={name} />
+      return <UnsupportedNode key={name} customClassName={'mt-0'} />
     },
     [],
   )

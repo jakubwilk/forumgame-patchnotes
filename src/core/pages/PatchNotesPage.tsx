@@ -6,6 +6,7 @@ import { useConfigContext } from '../hooks/useConfigContext'
 import { UnsupportedNode } from '../nodes/UnsupportedNode'
 import { Helmet } from 'react-helmet-async'
 import { LoadingPage } from './LoadingPage'
+import { Footer } from '../footer/Footer'
 
 interface IProps {
   version: string
@@ -25,7 +26,7 @@ export function PatchNotesPage({ version }: IProps) {
         <title>{`Mage Guild Wars - Aktualizacja ${version}`}</title>
       </Helmet>
       {isConfigFile ? (
-        <div className={'p-8'}>
+        <div className={'px-8 pt-8'}>
           {isLoading ? <LoadingPage isFullPage={false} /> : <NodeCategory data={data?.patch as Array<IPatchNode>} />}
         </div>
       ) : (
@@ -34,6 +35,7 @@ export function PatchNotesPage({ version }: IProps) {
           customClassName={'mx-8'}
         />
       )}
+      <Footer />
     </main>
   )
 }

@@ -9,4 +9,15 @@ export default defineConfig({
     open: true,
     port: 3000,
   },
+  build: {
+    rollupOptions: {
+      output: {
+        manualChunks: {
+          lodash: ['lodash'],
+          mantine: ['@mantine/core'],
+          icons: ['@tabler/icons-react'],
+        },
+      },
+    },
+  },
 })

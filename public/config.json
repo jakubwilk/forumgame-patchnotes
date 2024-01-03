@@ -13,17 +13,17 @@
         {
             "version": "2.0.2",
             "name": "2-0-2",
-            "link": "https://www.google.com"
+            "link": "https://www.youtube.com"
         },
         {
             "version": "2.0.1",
             "name": null,
-            "link": "https://www.google.com"
+            "link": "https://www.twitch.tv"
         },
         {
             "version": "2.0.0",
             "name": null,
-            "link": "https://www.google.com"
+            "link": "https://www.facebook.com"
         }
     ],
     "router": [

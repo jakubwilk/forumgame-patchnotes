@@ -70,7 +70,7 @@ export function NodeEntity({ data }: IProps) {
   )
 
   return (
-    <section className={clsx('pt-8', styles.entityContent)}>
+    <section className={clsx('pt-8 mt-4 rounded-md', styles.entityContent)}>
       {data.map(({ categoryKey, name, description, link, label, imageUri, nodes }: IPatchNodes) =>
         renderEntity(categoryKey, name, description, link, label, imageUri, nodes),
       )}

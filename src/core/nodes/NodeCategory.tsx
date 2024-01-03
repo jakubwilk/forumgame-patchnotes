@@ -19,7 +19,7 @@ export function NodeCategory({ data }: IProps) {
       if (isEqual(categoryKey, IPatchNodeCategoryKeyEnum.CATEGORY)) {
         return (
           <article key={name} className={'mb-8'}>
-            <header className={clsx('p-4', styles.categoryHeader)}>
+            <header className={clsx('p-4 rounded-md', styles.categoryHeader)}>
               <Title order={2} className={styles.entityTitle}>
                 {name}
               </Title>

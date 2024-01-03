@@ -24,18 +24,16 @@ export function PatchNotesPage({ version }: IProps) {
       <Helmet>
         <title>{`Mage Guild Wars - Aktualizacja ${version}`}</title>
       </Helmet>
-      <div className={'container max-w-[1000px] mx-auto'}>
-        {isConfigFile ? (
-          <div className={'p-8'}>
-            {isLoading ? <LoadingPage isFullPage={false} /> : <NodeCategory data={data?.patch as Array<IPatchNode>} />}
-          </div>
-        ) : (
-          <UnsupportedNode
-            customText={'Wykryto brak pliku z aktualizacją. Skontaktuj się z administratorem serwisu.'}
-            customClassName={'mx-8'}
-          />
-        )}
-      </div>
+      {isConfigFile ? (
+        <div className={'p-8'}>
+          {isLoading ? <LoadingPage isFullPage={false} /> : <NodeCategory data={data?.patch as Array<IPatchNode>} />}
+        </div>
+      ) : (
+        <UnsupportedNode
+          customText={'Wykryto brak pliku z aktualizacją. Skontaktuj się z administratorem serwisu.'}
+          customClassName={'mx-8'}
+        />
+      )}
     </main>
   )
 }

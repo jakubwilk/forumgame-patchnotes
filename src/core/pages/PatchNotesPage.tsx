@@ -1,7 +1,7 @@
 import { useMemo } from 'react'
 import { useGetPatchNotes } from '../api/useGetPatchNotes'
 import { NodeCategory } from '../nodes/NodeCategory'
-import { IPatchNode } from '../models/api.model'
+import { IConfigPatches, IPatchNode } from '../models/api.model'
 import { useConfigContext } from '../hooks/useConfigContext'
 import { UnsupportedNode } from '../nodes/UnsupportedNode'
 import { Helmet } from 'react-helmet-async'
@@ -15,8 +15,8 @@ interface IProps {
 export function PatchNotesPage({ version }: IProps) {
   const { config } = useConfigContext()
   const updateFileNameBasedOnVersion = useMemo(() => version.replaceAll('.', '-'), [version])
-  const files = useMemo(() => config?.update.files, [config])
-  const isConfigFile = useMemo(() => files?.includes(updateFileNameBasedOnVersion), [files, updateFileNameBasedOnVersion])
+  const files = useMemo(() => config?.patches.map(({ name }: IConfigPatches) => name).filter(Boolean), [config])
+  const isConfig = useMemo(() => files?.includes(updateFileNameBasedOnVersion), [files, updateFileNameBasedOnVersion])
 
   const { data, isLoading } = useGetPatchNotes(updateFileNameBasedOnVersion)
 
@@ -25,7 +25,7 @@ export function PatchNotesPage({ version }: IProps) {
       <Helmet>
         <title>{`Mage Guild Wars - Aktualizacja ${version}`}</title>
       </Helmet>
-      {isConfigFile ? (
+      {isConfig ? (
         <div className={'px-8 pt-8'}>
           {isLoading ? <LoadingPage isFullPage={false} /> : <NodeCategory data={data?.patch as Array<IPatchNode>} />}
         </div>

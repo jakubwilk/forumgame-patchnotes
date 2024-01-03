@@ -3,7 +3,8 @@ import { useCallback, useEffect, useMemo, useState } from 'react'
 import { useConfigContext } from '../hooks/useConfigContext'
 import styles from '../styles/patch-version-select.module.css'
 import { useLocation, useNavigate } from 'react-router-dom'
-import { isEqual } from 'lodash'
+import { isEqual, first } from 'lodash'
+import { IConfigPatches } from '../models/api.model'
 
 interface IProps {
   handleSelectVersion: (val: string) => void
@@ -15,12 +16,12 @@ export function PatchVersionSelect({ handleSelectVersion, isConfigLoading }: IPr
   const { config } = useConfigContext()
   const { pathname } = useLocation()
 
-  const currentVersion = useMemo(() => config?.update.current as string, [config])
+  const currentVersion = useMemo(() => first(config?.patches)?.version as string, [config])
 
   const [checkedValue, setCheckedValue] = useState<string>('')
   const data = useMemo(() => {
     if (config) {
-      return config?.update.versions
+      return config?.patches.map(({ version }: IConfigPatches) => version)
     }
 
     return ['-']

@@ -1,7 +1,13 @@
-export interface IConfigUpdate {
-  current: string
-  versions: Array<string>
-  files: Array<string>
+export interface IConfigBase {
+  forumName: string
+  forumLink: string
+  showThreadLink: boolean
+}
+
+export interface IConfigPatches {
+  version: string
+  name: string | null
+  link: string
 }
 
 export interface IConfigRouter {
@@ -10,7 +16,8 @@ export interface IConfigRouter {
 }
 
 export interface IConfig {
-  update: IConfigUpdate
+  base: IConfigBase
+  patches: Array<IConfigPatches>
   router: Array<IConfigRouter>
 }
 

@@ -1,4 +1,4 @@
-# Mage Guild Wars Patch Notes App
+# Forum Game Patch Notes App
 Project of patch notes app created with CRA and moved to Vite. Main gaol is using this app as template for many patches for custom forum game.
 ## Technologies and libs
 - React

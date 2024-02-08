@@ -5,7 +5,7 @@ import { ConfigProvier } from 'src/core/context/ConfigProvider'
 import { AppContent } from './AppContent'
 
 const theme = createTheme({
-  primaryColor: 'green',
+  primaryColor: 'violet',
 })
 const queryClient = new QueryClient({
   queryCache: new QueryCache({

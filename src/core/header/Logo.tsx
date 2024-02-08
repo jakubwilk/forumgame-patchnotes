@@ -12,7 +12,7 @@ export function Logo() {
 
   return (
     <Anchor href={forumLink} className={clsx('duration-100', styles.logo)}>
-      {forumName}
+      <img src={'https://mageguildwars.pl/images/mgw_modern/logo.png'} alt={forumName} />
     </Anchor>
   )
 }

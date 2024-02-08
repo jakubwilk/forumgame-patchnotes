@@ -7,6 +7,7 @@ import { IconExternalLink } from '@tabler/icons-react'
 import { NodeItem } from './NodeItem'
 import styles from '../styles/nodes.module.css'
 import clsx from 'clsx'
+import { NodeMarkdown } from './NodeMarkdown'
 
 interface IProps {
   data: Array<IPatchNodes>
@@ -56,7 +57,11 @@ export function NodeEntity({ data }: IProps) {
                     )}
                   </div>
                 </div>
-                {hasDescription && <Text className={styles.itemDescription}>{description}</Text>}
+                {hasDescription && (
+                  <Text className={styles.itemDescription}>
+                    <NodeMarkdown text={description as string} />
+                  </Text>
+                )}
                 {hasNodes && <NodeItem data={nodes as Array<IPatchNodesItem>} />}
               </div>
             </div>

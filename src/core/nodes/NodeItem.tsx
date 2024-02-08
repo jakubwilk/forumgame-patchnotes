@@ -4,6 +4,7 @@ import { isEmpty, isEqual, isNil } from 'lodash'
 import { UnsupportedNode } from './UnsupportedNode'
 import { Anchor, List, Text, Tooltip } from '@mantine/core'
 import { IconExternalLink } from '@tabler/icons-react'
+import { NodeMarkdown } from './NodeMarkdown'
 
 interface IProps {
   data: Array<IPatchNodesItem>
@@ -21,7 +22,7 @@ export function NodeItem({ data }: IProps) {
           <List.Item key={slug} className={'flex items-center'}>
             <div className={'flex'}>
               <Text className={'mr-2'}>{`${itemNumber}.`}</Text>
-              {description}
+              <NodeMarkdown text={description} />
             </div>
             {hasLink && (
               <Tooltip label={'Kliknij żeby przejść do wątku'} position={'right'}>

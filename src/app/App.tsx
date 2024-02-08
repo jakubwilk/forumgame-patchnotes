@@ -3,10 +3,8 @@ import { QueryCache, QueryClient, QueryClientProvider } from '@tanstack/react-qu
 import { HelmetProvider } from 'react-helmet-async'
 import { ConfigProvier } from 'src/core/context/ConfigProvider'
 import { AppContent } from './AppContent'
+import { useState } from 'react'
 
-const theme = createTheme({
-  primaryColor: 'violet',
-})
 const queryClient = new QueryClient({
   queryCache: new QueryCache({
     onError: (err) => console.log('err', err),
@@ -14,12 +12,18 @@ const queryClient = new QueryClient({
 })
 
 export function App() {
+  const [primaryColor, setPrimaryColor] = useState('dark')
+
+  const mantineTheme = createTheme({
+    primaryColor,
+  })
+
   return (
     <HelmetProvider>
       <QueryClientProvider client={queryClient}>
-        <MantineProvider defaultColorScheme={'dark'} theme={theme}>
+        <MantineProvider defaultColorScheme={'dark'} theme={mantineTheme}>
           <ConfigProvier>
-            <AppContent />
+            <AppContent setPrimaryColor={setPrimaryColor} />
           </ConfigProvier>
         </MantineProvider>
       </QueryClientProvider>

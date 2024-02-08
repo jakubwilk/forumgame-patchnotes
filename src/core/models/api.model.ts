@@ -2,6 +2,7 @@ export interface IConfigBase {
   forumName: string
   forumLink: string
   showThreadLink: boolean
+  primaryColor: string
 }
 
 export interface IConfigPatches {

@@ -10,7 +10,11 @@ import { isNil, isEmpty } from 'lodash'
 import { LoadingPage } from 'src/core/pages/LoadingPage'
 import { IConfigRouter } from 'src/core/models/api.model'
 
-export function AppContent() {
+interface IProps {
+  setPrimaryColor: (color: string) => void
+}
+
+export function AppContent({ setPrimaryColor }: IProps) {
   const { data, isLoading } = useGetConfig()
   const { setConfig } = useConfigContext()
 
@@ -36,8 +40,9 @@ export function AppContent() {
   useEffect(() => {
     if (!isLoading && !isNil(data)) {
       setConfig(data)
+      setPrimaryColor(data.base.primaryColor)
     }
-  }, [data, setConfig, isLoading])
+  }, [data, setConfig, isLoading, setPrimaryColor])
 
   if (!isLoading && !isEmpty(APP_ROUTER)) {
     return <RouterProvider router={createBrowserRouter(APP_ROUTER)} />

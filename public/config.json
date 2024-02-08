@@ -2,7 +2,8 @@
     "base": {
         "forumName": "Mage Guild Wars",
         "forumLink": "https://www.mageguildwars.pl",
-        "showThreadLink": true
+        "showThreadLink": true,
+        "primaryColor": "violet"
     },
     "patches": [
         {

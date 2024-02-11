@@ -23,7 +23,7 @@ export function App() {
       <QueryClientProvider client={queryClient}>
         <MantineProvider defaultColorScheme={'dark'} theme={mantineTheme}>
           <ConfigProvier>
-            <AppContent setPrimaryColor={setPrimaryColor} />
+            <AppContent setThemeColor={setPrimaryColor} />
           </ConfigProvier>
         </MantineProvider>
       </QueryClientProvider>

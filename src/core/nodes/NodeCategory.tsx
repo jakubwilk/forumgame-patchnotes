@@ -1,5 +1,5 @@
-import { useCallback } from 'react'
-import { IPatchNode, IPatchNodeCategoryKeyEnum, IPatchNodes } from '../models/api.model'
+import { Fragment, useCallback } from 'react'
+import { IPatchCategoryNode, IPatchNodeCategoryKeyEnum, IPatchThreadNode, TPatch } from '../models/api.model'
 import { isEqual, isEmpty, isNil } from 'lodash'
 import { UnsupportedNode } from './UnsupportedNode'
 import { Title, Text } from '@mantine/core'
@@ -8,17 +8,19 @@ import styles from '../styles/nodes.module.css'
 import clsx from 'clsx'
 
 interface IProps {
-  data: Array<IPatchNode>
+  data: TPatch
 }
 
 export function NodeCategory({ data }: IProps) {
+  console.log('data', data)
+
   const renderCategory = useCallback(
-    (categoryKey: IPatchNodeCategoryKeyEnum, name: string, nodes: Array<IPatchNodes>, description?: string) => {
+    (categoryKey: IPatchNodeCategoryKeyEnum, slug: string, name: string, nodes: Array<IPatchThreadNode>, description?: string) => {
       const hasDescription = !isEmpty(description) || !isNil(description)
 
       if (isEqual(categoryKey, IPatchNodeCategoryKeyEnum.CATEGORY)) {
         return (
-          <article key={name} className={'mb-8'}>
+          <article key={slug} className={'mb-8'}>
             <header className={clsx('p-4 rounded-md', styles.categoryHeader)}>
               <Title order={2} className={styles.entityTitle}>
                 {name}
@@ -35,5 +37,11 @@ export function NodeCategory({ data }: IProps) {
     [],
   )
 
-  return <>{data.map(({ categoryKey, name, description, nodes }: IPatchNode) => renderCategory(categoryKey, name, nodes, description))}</>
+  return (
+    <Fragment>
+      {data.map(({ categoryKey, slug, name, description, nodes }: IPatchCategoryNode) =>
+        renderCategory(categoryKey, slug, name, nodes, description),
+      )}
+    </Fragment>
+  )
 }

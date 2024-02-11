@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { IPatchNodeCategoryKeyEnum, IPatchNodes, IPatchNodesItem, IPatchNodesLabelEnum } from '../models/api.model'
+import { IPatchNodeCategoryKeyEnum, IPatchNodesLabelEnum } from '../models/api.model'
 import { isEmpty, isEqual, isNil } from 'lodash'
 import { UnsupportedNode } from './UnsupportedNode'
 import { Text, Title, Tooltip, Anchor, Badge } from '@mantine/core'
@@ -32,7 +32,7 @@ export function NodeEntity({ data }: IProps) {
       const hasImageUri = hasProps(imageUri)
       const hasNodes = hasProps(nodes)
 
-      if (isEqual(categoryKey, IPatchNodeCategoryKeyEnum.ENTITY)) {
+      if (isEqual(categoryKey, IPatchNodeCategoryKeyEnum.THREAD)) {
         return (
           <div key={name} className={'px-8 pb-12 last:pb-8'}>
             <div className={'flex flex-col md:flex-row'}>
@@ -44,7 +44,7 @@ export function NodeEntity({ data }: IProps) {
                       {isEqual(label, IPatchNodesLabelEnum.NEW) ? 'Nowe' : 'Usunięte'}
                     </Badge>
                   )}
-                  <div className={'flex items-center mb-2'}>
+                  <div className={'flex items-center'}>
                     <Title order={3} className={clsx('mr-2', styles.itemTitle)}>
                       {name}
                     </Title>
@@ -58,7 +58,7 @@ export function NodeEntity({ data }: IProps) {
                   </div>
                 </div>
                 {hasDescription && (
-                  <Text className={styles.itemDescription}>
+                  <Text className={clsx('mt-2', styles.itemDescription)}>
                     <NodeMarkdown text={description as string} />
                   </Text>
                 )}

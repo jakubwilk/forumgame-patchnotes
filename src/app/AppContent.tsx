@@ -8,17 +8,17 @@ import { NotFoundPage } from 'src/core/pages/NotFoundPage'
 import { PatchNotesPage } from 'src/core/pages/PatchNotesPage'
 import { isNil, isEmpty } from 'lodash'
 import { LoadingPage } from 'src/core/pages/LoadingPage'
-import { IConfigRouter } from 'src/core/models/api.model'
+import { IConfigPatches } from 'src/core/models/api.model'
 
 interface IProps {
-  setPrimaryColor: (color: string) => void
+  setThemeColor: (color: string) => void
 }
 
-export function AppContent({ setPrimaryColor }: IProps) {
+export function AppContent({ setThemeColor }: IProps) {
   const { data, isLoading } = useGetConfig()
   const { setConfig } = useConfigContext()
 
-  const router = useMemo(() => data?.router as Array<IConfigRouter>, [data])
+  const router = useMemo(() => data?.patches as Array<IConfigPatches>, [data])
 
   const APP_ROUTER = useMemo(() => {
     const basicRouter = {
@@ -28,8 +28,10 @@ export function AppContent({ setPrimaryColor }: IProps) {
     }
 
     if (router) {
-      router.map(({ url, slug }) => {
-        const tempRouter = { path: url, element: <PatchNotesPage version={slug.replaceAll('-', '.')} /> } as ISingleBrowseRouter
+      router.map(({ patchName, fileName }) => {
+        console.log('patchNote', patchName)
+        console.log('fileName', fileName)
+        const tempRouter = { path: fileName, element: <PatchNotesPage version={patchName} /> } as ISingleBrowseRouter
         return basicRouter.children.push(tempRouter)
       })
     }
@@ -40,9 +42,9 @@ export function AppContent({ setPrimaryColor }: IProps) {
   useEffect(() => {
     if (!isLoading && !isNil(data)) {
       setConfig(data)
-      setPrimaryColor(data.base.primaryColor)
+      setThemeColor(data.base.themeColor)
     }
-  }, [data, setConfig, isLoading, setPrimaryColor])
+  }, [data, setConfig, isLoading, setThemeColor])
 
   if (!isLoading && !isEmpty(APP_ROUTER)) {
     return <RouterProvider router={createBrowserRouter(APP_ROUTER)} />

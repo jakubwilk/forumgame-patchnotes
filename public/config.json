@@ -2,47 +2,36 @@
     "base": {
         "forumName": "Mage Guild Wars",
         "forumLink": "https://www.mageguildwars.pl",
-        "showThreadLink": true,
-        "primaryColor": "violet"
+        "themeColor": "violet"
     },
     "patches": [
         {
-            "version": "2.0.3",
-            "name": "2-0-3",
-            "link": "https://www.google.com"
+            "patchName": "2.0.3",
+            "fileName": "2-0-3",
+            "threadLink": "https://www.google.com",
+            "showUpdateThreadLink": true,
+            "isNewest": true
         },
         {
-            "version": "2.0.2",
-            "name": "2-0-2",
-            "link": "https://www.youtube.com"
+            "patchName": "2.0.2",
+            "fileName": "2-0-2",
+            "threadLink": "https://www.youtube.com",
+            "showUpdateThreadLink": true,
+            "isNewest": false
         },
         {
-            "version": "2.0.1",
-            "name": null,
-            "link": "https://www.twitch.tv"
+            "patchName": "2.0.1",
+            "fileName": null,
+            "threadLink": "https://www.twitch.tv",
+            "showUpdateThreadLink": true,
+            "isNewest": false
         },
         {
-            "version": "2.0.0",
-            "name": null,
-            "link": "https://www.facebook.com"
-        }
-    ],
-    "router": [
-        {
-            "url": "/",
-            "slug": "2-0-3"           
-        },
-        {
-            "url": "/2-0-2",
-            "slug": "2-0-2"
-        },
-        {
-            "url": "/2-0-1",
-            "slug": "2-0-1"
-        },
-        {
-            "url": "/2-0-0",
-            "slug": "2-0-0"
+            "patchName": "2.0.0",
+            "fileName": null,
+            "threadLink": "https://www.facebook.com",
+            "showUpdateThreadLink": true,
+            "isNewest": false
         }
     ]
 }

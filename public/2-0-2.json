@@ -1,64 +1,64 @@
-{
-    "patch": [
-        {
-            "categoryKey": "CATEGORY",
-            "name": "Lorem ipsum",
-            "nodes": [
-                {
-                    "categoryKey": "ENTITY",
-                    "name": "Lorem ipsum 1",
-                    "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
-                    "link": "https://www.google.com",
-                    "label": "NEW"
-                },
-                {
-                    "categoryKey": "ENTITY",
-                    "name": "Lorem ipsum 2",
-                    "description": "Et harum quidem rerum facilis est et expedita distinctio.",
-                    "link": "https://www.google.com",
-                    "label": "NEW"
-                },
-                {
-                    "categoryKey": "ENTITY",
-                    "name": "Lorem ipsum 3",
-                    "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
-                    "label": "REMOVE"
-                }
-            ]
-        },
-        {
-            "categoryKey": "CATEGORY",
-            "name": "Ipsum Lorem",
-            "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
-            "nodes": [
-                {
-                    "categoryKey": "ENTITY",
-                    "name": "Ipsum Lorem 1",
-                    "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
-                    "link": "https://www.google.com",
-                    "imageUri": "http://imgur.com/JO7jcmB.png",
-                    "nodes": [
-                        {
-                            "categoryKey": "ITEM",
-                            "slug": "ipsum-lorem-1-1",
-                            "description":"Et harum quidem rerum facilis est et expedita distinctio.",
-                            "link": "https://www.google.com"
-                        },
-                        {
-                            "categoryKey": "ITEM",
-                            "slug": "ipsum-lorem-1-2",
-                            "description":"Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
-                            "link": "https://www.google.com"
-                        }
-                    ]
-                },
-                {
-                    "categoryKey": "ENTITY",
-                    "name": "Ipsum Lorem 2",
-                    "imageUri": "http://imgur.com/B4dSWgt.png",
-                    "label": "REMOVE"
-                }
-            ]
-        }
-    ]
-}
+[
+    {
+        "categoryKey": "CATEGORY",
+        "slug": "lorem-ipsum",
+        "name": "Lorem ipsum",
+        "nodes": [
+            {
+                "categoryKey": "THREAD",
+                "name": "Lorem ipsum 1",
+                "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+                "link": "https://www.google.com",
+                "label": "NEW"
+            },
+            {
+                "categoryKey": "THREAD",
+                "name": "Lorem ipsum 2",
+                "description": "Et harum quidem rerum facilis est et expedita distinctio.",
+                "link": "https://www.google.com",
+                "label": "NEW"
+            },
+            {
+                "categoryKey": "THREAD",
+                "name": "Lorem ipsum 3",
+                "description": "Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.",
+                "label": "REMOVE"
+            }
+        ]
+    },
+    {
+        "categoryKey": "CATEGORY",
+        "slug": "ipsum-lorem",
+        "name": "Ipsum Lorem",
+        "description": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?",
+        "nodes": [
+            {
+                "categoryKey": "THREAD",
+                "name": "Ipsum Lorem 1",
+                "description": "Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+                "link": "https://www.google.com",
+                "imageUri": "http://imgur.com/JO7jcmB.png",
+                "nodes": [
+                    {
+                        "categoryKey": "ITEM",
+                        "slug": "ipsum-lorem-1-1",
+                        "description":"Et harum quidem rerum facilis est et expedita distinctio.",
+                        "link": "https://www.google.com"
+                    },
+                    {
+                        "categoryKey": "ITEM",
+                        "slug": "ipsum-lorem-1-2",
+                        "description":"Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus, omnis voluptas assumenda est, omnis dolor repellendus.",
+                        "link": "https://www.google.com"
+                    }
+                ]
+            },
+            {
+                "categoryKey": "THREAD",
+                "name": "Ipsum Lorem 2",
+                "imageUri": "http://imgur.com/B4dSWgt.png",
+                "label": "REMOVE"
+            }
+        ]
+    }
+]

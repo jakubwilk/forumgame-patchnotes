@@ -1,32 +1,27 @@
 export interface IConfigBase {
   forumName: string
   forumLink: string
-  showThreadLink: boolean
-  primaryColor: string
+  themeColor: string
 }
 
 export interface IConfigPatches {
-  version: string
-  name: string | null
-  link: string
-}
-
-export interface IConfigRouter {
-  url: string
-  slug: string
+  patchName: string
+  fileName: string
+  threadLink: string
+  showUpdateThreadLink: boolean
+  isNewest: boolean
 }
 
 export interface IConfig {
   base: IConfigBase
   patches: Array<IConfigPatches>
-  router: Array<IConfigRouter>
 }
 
 export enum IPatchNodeCategoryKeyEnum {
   // eslint-disable-next-line no-unused-vars
   CATEGORY = 'CATEGORY',
   // eslint-disable-next-line no-unused-vars
-  ENTITY = 'ENTITY',
+  THREAD = 'THREAD',
   // eslint-disable-next-line no-unused-vars
   ITEM = 'ITEM',
 }
@@ -38,30 +33,30 @@ export enum IPatchNodesLabelEnum {
   REMOVE = 'REMOVE',
 }
 
-export interface IPatchNodesItem {
-  categoryKey: IPatchNodeCategoryKeyEnum
+export interface IPatchCategoryNode {
+  categoryKey: IPatchNodeCategoryKeyEnum.CATEGORY
+  slug: string
+  name: string
+  description?: string
+  nodes: Array<IPatchThreadNode>
+}
+
+export interface IPatchThreadNode {
+  categoryKey: IPatchNodeCategoryKeyEnum.THREAD
+  slug: string
+  name: string
+  description?: string
+  imageUri?: string
+  link?: string
+  label?: IPatchNodesLabelEnum
+  nodes?: Array<IPatchItemNode>
+}
+
+export interface IPatchItemNode {
+  categoryKey: IPatchNodeCategoryKeyEnum.ITEM
   slug: string
   description: string
   link?: string
 }
 
-export interface IPatchNodes {
-  categoryKey: IPatchNodeCategoryKeyEnum
-  name: string
-  description?: string
-  link?: string
-  label?: IPatchNodesLabelEnum
-  imageUri?: string
-  nodes?: Array<IPatchNodesItem>
-}
-
-export interface IPatchNode {
-  categoryKey: IPatchNodeCategoryKeyEnum
-  name: string
-  nodes: Array<IPatchNodes>
-  description?: string
-}
-
-export interface IPatch {
-  patch: Array<IPatchNode>
-}
+export type TPatch = Array<IPatchCategoryNode>

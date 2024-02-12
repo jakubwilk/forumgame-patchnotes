@@ -1,6 +1,7 @@
 export interface IConfigBase {
   forumName: string
   forumLink: string
+  forumFavicon: string
   themeColor: string
 }
 

@@ -1,8 +1,8 @@
 import { useCallback } from 'react'
-import { IPatchNodeCategoryKeyEnum, IPatchNodesLabelEnum } from '../models/api.model'
+import { IPatchItemNode, IPatchNodeCategoryKeyEnum, IPatchNodesLabelEnum, IPatchThreadNode } from '../models/api.model'
 import { isEmpty, isEqual, isNil } from 'lodash'
 import { UnsupportedNode } from './UnsupportedNode'
-import { Text, Title, Tooltip, Anchor, Badge } from '@mantine/core'
+import { Title, Tooltip, Anchor, Badge } from '@mantine/core'
 import { IconExternalLink } from '@tabler/icons-react'
 import { NodeItem } from './NodeItem'
 import styles from '../styles/nodes.module.css'
@@ -10,10 +10,10 @@ import clsx from 'clsx'
 import { NodeMarkdown } from './NodeMarkdown'
 
 interface IProps {
-  data: Array<IPatchNodes>
+  data: Array<IPatchThreadNode>
 }
 
-export function NodeEntity({ data }: IProps) {
+export function NodeThread({ data }: IProps) {
   const hasProps = useCallback((props: string | Array<any> | undefined) => !isEmpty(props) || !isNil(props), [])
 
   const renderEntity = useCallback(
@@ -24,7 +24,7 @@ export function NodeEntity({ data }: IProps) {
       link?: string,
       label?: string,
       imageUri?: string,
-      nodes?: Array<IPatchNodesItem>,
+      nodes?: Array<IPatchItemNode>,
     ) => {
       const hasDescription = hasProps(description)
       const hasLink = hasProps(link)
@@ -57,12 +57,8 @@ export function NodeEntity({ data }: IProps) {
                     )}
                   </div>
                 </div>
-                {hasDescription && (
-                  <Text className={clsx('mt-2', styles.itemDescription)}>
-                    <NodeMarkdown text={description as string} />
-                  </Text>
-                )}
-                {hasNodes && <NodeItem data={nodes as Array<IPatchNodesItem>} />}
+                {hasDescription && <NodeMarkdown text={description as string} className={clsx('mt-2', styles.itemDescription)} />}
+                {hasNodes && <NodeItem data={nodes as Array<IPatchItemNode>} />}
               </div>
             </div>
           </div>
@@ -76,7 +72,7 @@ export function NodeEntity({ data }: IProps) {
 
   return (
     <section className={clsx('pt-8 mt-4 rounded-md', styles.entityContent)}>
-      {data.map(({ categoryKey, name, description, link, label, imageUri, nodes }: IPatchNodes) =>
+      {data.map(({ categoryKey, name, description, link, label, imageUri, nodes }: IPatchThreadNode) =>
         renderEntity(categoryKey, name, description, link, label, imageUri, nodes),
       )}
     </section>

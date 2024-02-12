@@ -1,12 +1,13 @@
 import { useMemo } from 'react'
 import { useGetPatchNotes } from '../api/useGetPatchNotes'
 import { NodeCategory } from '../nodes/NodeCategory'
-import { IConfigPatches, TPatch } from '../models/api.model'
+import { IConfig, IConfigPatches, TPatch } from '../models/api.model'
 import { useConfigContext } from '../hooks/useConfigContext'
 import { UnsupportedNode } from '../nodes/UnsupportedNode'
 import { Helmet } from 'react-helmet-async'
 import { LoadingPage } from './LoadingPage'
 import { Footer } from '../footer/Footer'
+import { isEmpty, isNil } from 'lodash'
 
 interface IProps {
   version: string
@@ -20,10 +21,16 @@ export function PatchNotesPage({ version }: IProps) {
 
   const { data, isLoading } = useGetPatchNotes(updateFileNameBasedOnVersion)
 
+  const isForumName = useMemo(
+    () => !isNil(config) && !isNil(config.base) && (!isNil(config.base.forumName) || !isEmpty(config.base.forumName)),
+    [config],
+  )
+  const forumName = useMemo(() => (isForumName ? (config as IConfig).base.forumName : ''), [isForumName, config])
+
   return (
     <main>
       <Helmet>
-        <title>{`Mage Guild Wars - Aktualizacja ${version}`}</title>
+        <title>{`${forumName} | Aktualizacja - ${version}`}</title>
       </Helmet>
       {isConfig ? (
         <div className={'px-8 pt-8'}>{isLoading ? <LoadingPage isFullPage={false} /> : <NodeCategory data={data as TPatch} />}</div>

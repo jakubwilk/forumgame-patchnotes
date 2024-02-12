@@ -11,7 +11,7 @@ export const ConfigContext = createContext<IConfigContext>({
   setConfig: () => {},
 })
 
-export function ConfigProvier({ children }: IProps) {
+export function ConfigProvider({ children }: IProps) {
   const [config, setConfig] = useState<IConfig | null>(null)
 
   const handleSetConfig = useCallback((config: IConfig) => setConfig(config), [])

@@ -9,7 +9,7 @@ export function Footer() {
         {'2024 © - Wszelkie prawa zastrzeżone - '}
         <Tooltip label={'Przejdź do strony projektu'} color={'gray'}>
           <Anchor href={'https://www.mageguildwars.pl'} className={clsx('duration-100', styles.footerLink)}>
-            {'patchnotes.github.io'}
+            {'webpatches.github.io'}
           </Anchor>
         </Tooltip>
       </Text>

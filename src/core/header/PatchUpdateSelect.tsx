@@ -1,97 +1,72 @@
-import { Select } from '@mantine/core'
-import { useCallback, useEffect, useMemo, useState } from 'react'
-import { useConfigContext } from '../hooks/useConfigContext'
+import { ComboboxItem, Select } from '@mantine/core'
 import styles from '../styles/patch-version-select.module.css'
-import { useLocation, useNavigate } from 'react-router-dom'
-import { isEqual, first } from 'lodash'
-import { IConfigPatches } from '../models/api.model'
+import { useConfigContext } from '../hooks/useConfigContext'
+import { useCallback, useEffect, useMemo, useState } from 'react'
 import { ICurrentUpdate } from '../models/nodes.model'
+import { buildRouteLink, FIRST_PAGE } from '../utils/router.utils'
+import { isEmpty, isEqual, isNil } from 'lodash'
+import { useLocation, useNavigate } from 'react-router-dom'
+import { useCurrentPatchContext } from '../hooks/useCurrentPatchContext'
+import { ICurrentPatchContextItem } from '../models/current-patch-context.model'
 
 interface IProps {
   handleSelectUpdate: (val: string) => void
   isConfigLoading: boolean
 }
 
+type TOptionItem = ComboboxItem & ICurrentPatchContextItem
+
 export function PatchUpdateSelect({ handleSelectUpdate, isConfigLoading }: IProps) {
+  const { pathname } = useLocation()
   const navigate = useNavigate()
   const { config } = useConfigContext()
-  const { pathname } = useLocation()
-
-  const currentPatch: ICurrentUpdate = useMemo(() => {
-    const patch = first(config?.patches)
-    return {
-      label: patch?.patchName as string,
-      value: patch?.fileName as string,
-    }
-  }, [config])
-
-  const [selectedValue, setSelectedValue] = useState<ICurrentUpdate>({
-    label: '',
-    value: '',
+  const { setPatch } = useCurrentPatchContext()
+  const [selectValue, setSelectValue] = useState<ICurrentUpdate>({
+    label: '-',
+    value: '/',
   })
 
   const selectData = useMemo(() => {
-    if (config) {
-      return config?.patches.map(({ patchName, fileName }: IConfigPatches) => ({
-        label: patchName,
-        value: fileName,
-      }))
-    }
-
-    return [
-      {
-        label: '-',
-        value: '/',
-      },
-    ]
+    return (
+      config?.patches
+        .filter(({ fileName }) => !isNil(fileName))
+        .map(({ patchName, fileName, isNewest, threadLink, showUpdateThreadLink }) => {
+          return { label: patchName, value: buildRouteLink(fileName, isNewest), threadLink, showUpdateThreadLink }
+        }) || []
+    )
   }, [config])
 
-  const navigateToPage = useCallback(
-    (patch: string) => {
-      const versionPage = patch.replaceAll('.', '-')
-
-      if (patch === currentPatch.value) {
-        navigate('/')
-      } else {
-        navigate(versionPage)
-      }
-    },
-    [navigate, currentPatch],
-  )
-
   const handleChange = useCallback(
-    (option: ICurrentUpdate) => {
-      const update = (option.value || selectedValue) as string
-
-      setSelectedValue(option)
-      handleSelectUpdate(update)
-      navigateToPage(update)
+    (option: TOptionItem) => {
+      setSelectValue(option)
+      handleSelectUpdate(option.label)
+      navigate(option.value)
+      setPatch({ threadLink: option.threadLink, showUpdateThreadLink: option.showUpdateThreadLink })
     },
-    [handleSelectUpdate, selectedValue, navigateToPage],
+    [handleSelectUpdate, navigate],
   )
 
   useEffect(() => {
-    const patchFromPath: ICurrentUpdate = {
-      label: '',
-      value: pathname.replace('/', '').replaceAll('-', '.'),
+    const currentSelectData = selectData.find(({ value }) => isEqual(value, pathname))
+    if (isEmpty(currentSelectData) || isNil(currentSelectData)) {
+      navigate(FIRST_PAGE)
+    } else {
+      setSelectValue(currentSelectData)
+      handleSelectUpdate(currentSelectData.label)
+      setPatch({ threadLink: currentSelectData.threadLink, showUpdateThreadLink: currentSelectData.showUpdateThreadLink })
     }
-    const isFirstPage = isEqual(patchFromPath, '')
-    const currentUpdate = isFirstPage ? currentPatch : patchFromPath
-
-    setSelectedValue(currentUpdate)
-    handleSelectUpdate(currentUpdate.value)
     // eslint-disable-next-line react-hooks/exhaustive-deps
-  }, [config, pathname, currentPatch])
+  }, [selectData])
 
   return (
     <Select
-      value={selectedValue.value}
+      value={selectValue.value}
       label={'Wybierz aktualizację'}
       data={selectData}
       classNames={{
         label: styles.label,
       }}
-      onChange={(_value, option) => handleChange(option)}
+      onChange={(_value, option) => handleChange(option as TOptionItem)}
       disabled={isConfigLoading}
       allowDeselect={false}
     />

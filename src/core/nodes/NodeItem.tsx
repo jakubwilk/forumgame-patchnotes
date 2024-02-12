@@ -1,5 +1,5 @@
 import { useCallback } from 'react'
-import { IPatchNodeCategoryKeyEnum, IPatchNodesItem } from '../models/api.model'
+import { IPatchItemNode, IPatchNodeCategoryKeyEnum } from '../models/api.model'
 import { isEmpty, isEqual, isNil } from 'lodash'
 import { UnsupportedNode } from './UnsupportedNode'
 import { Anchor, List, Text, Tooltip } from '@mantine/core'
@@ -7,7 +7,7 @@ import { IconExternalLink } from '@tabler/icons-react'
 import { NodeMarkdown } from './NodeMarkdown'
 
 interface IProps {
-  data: Array<IPatchNodesItem>
+  data: Array<IPatchItemNode>
 }
 
 export function NodeItem({ data }: IProps) {

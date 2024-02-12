@@ -3,7 +3,7 @@ import { IPatchCategoryNode, IPatchNodeCategoryKeyEnum, IPatchThreadNode, TPatch
 import { isEqual, isEmpty, isNil } from 'lodash'
 import { UnsupportedNode } from './UnsupportedNode'
 import { Title, Text } from '@mantine/core'
-import { NodeEntity } from './NodeEntity'
+import { NodeThread } from './NodeThread'
 import styles from '../styles/nodes.module.css'
 import clsx from 'clsx'
 
@@ -12,8 +12,6 @@ interface IProps {
 }
 
 export function NodeCategory({ data }: IProps) {
-  console.log('data', data)
-
   const renderCategory = useCallback(
     (categoryKey: IPatchNodeCategoryKeyEnum, slug: string, name: string, nodes: Array<IPatchThreadNode>, description?: string) => {
       const hasDescription = !isEmpty(description) || !isNil(description)
@@ -27,7 +25,7 @@ export function NodeCategory({ data }: IProps) {
               </Title>
               {hasDescription && <Text className={clsx('pt-2', styles.categoryDescription)}>{description}</Text>}
             </header>
-            <NodeEntity data={nodes} />
+            <NodeThread data={nodes} />
           </article>
         )
       }

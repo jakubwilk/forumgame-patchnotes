@@ -40,6 +40,7 @@
     "start": "vite",
     "build": "tsc && vite build",
     "preview": "vite preview",
+    "lint": "eslint",
     "prettier": "prettier --write \"./**/*.{js,jsx,ts,tsx,scss,json}\""
   },
   "browserslist": {
